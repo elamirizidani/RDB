@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="assets/css/reusables.css?v=<?= intval(time()); ?>">
     <link rel="stylesheet" href="assets/css/invest-in-rwanda.css?v=<?= intval(time()); ?>">
 
+    <link rel="stylesheet" href="./assets/css/style.css?v=<?=intval(time());?>">
+
 </head>
 
 <body>
@@ -110,7 +112,7 @@
     <section class="Business-in-rwanda">
         <div class="container">
             <div class="row g-0">
-                <div class="col-md-6 with-content">
+                <div class="col-md-6 with-content justify-content-center">
                     <h2 class="text-left section-heading m-0">Doing Business in Rwanda</h2>
                     <p class="small-text-font dark-color">Rwanda has created an enabling Investment Environment</p>
                     <a href="" class="btn rdb-btn-green">Explore More</a>

@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="assets/css/global-styles.css?v=<?= intval(time()); ?>">
     <link rel="stylesheet" href="./assets/css/style.css?v=<?=intval(time());?>">
 
+    <link rel="stylesheet" href="assets/css/icon-styles.css?v=<?= intval(time()); ?>">
+
+
+
     <title>Get In Touch</title>
 </head>
 

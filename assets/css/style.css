@@ -100,25 +100,25 @@
 
 .article-title {
   font-family: "Mansfield";
-  color:#063232;
- font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  color: #063232;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .article-excerpt {
   font-family: "Mansfield";
-font-size: 16px;
-color: #212833;
-font-style: normal;
-font-weight: 300;
-line-height: 22px;
+  font-size: 16px;
+  color: #212833;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
   flex-grow: 1;
 }
 
 .continue-reading {
-  color:  #009448;
+  color: #009448;
 
   font-family: "Mansfield";
   font-size: 16px;
@@ -172,7 +172,7 @@ line-height: 22px;
 
 .page-btn.nav-btn {
   font-size: 16px;
-    font-family: "Mansfield";
+  font-family: "Mansfield";
 }
 
 /*  REPORT PAGE */
@@ -217,11 +217,11 @@ line-height: 22px;
 
 .document-title {
   font-family: "Mansfield";
-font-size: 16px;
-font-style: normal;
-color: #1B1B1A;
-font-weight: 400;
-line-height: 20px;
+  font-size: 16px;
+  font-style: normal;
+  color: #1b1b1a;
+  font-weight: 400;
+  line-height: 20px;
   margin-bottom: 5px;
 }
 
@@ -233,13 +233,13 @@ line-height: 20px;
 .download-btn {
   background-color: #009448;
   color: white;
-   font-family: "Mansfield";
+  font-family: "Mansfield";
   border: none;
   padding: 5px 30px 6px 30px;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 20px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -269,11 +269,11 @@ line-height: 20px;
 .sidebar-header {
   background: #006ab2;
   color: white;
-font-family: "Mansfield";
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .sidebar-content {
@@ -285,7 +285,7 @@ line-height: normal;
 }
 
 .search-input {
-  border: 2px solid #B3BABC;
+  border: 2px solid #b3babc;
   border-radius: 5px;
   padding: 11px 20px;
   width: 100%;
@@ -314,13 +314,13 @@ line-height: normal;
   justify-content: space-between;
   align-items: center;
   padding: 12px 0;
-  border-bottom: 1px solid ;
+  border-bottom: 1px solid;
   font-family: "Aeonik";
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-color: #1B1B1A;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #1b1b1a;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -335,12 +335,12 @@ color: #1B1B1A;
 }
 
 .category-count {
-  color: #1B1B1A;
+  color: #1b1b1a;
   text-align: center;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 18px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
 }
 
 .pagination-container {
@@ -393,7 +393,6 @@ line-height: 18px;
   }
 }
 
-
 /* REPORTS PAGE*/
 
 .document-item {
@@ -438,12 +437,12 @@ line-height: 18px;
 }
 
 .document-title {
- font-family: Aeonik;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-color: #1B1B1A;
-line-height: 20px; /* 125% */
+  font-family: Aeonik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #1b1b1a;
+  line-height: 20px; /* 125% */
   margin-bottom: 5px;
 }
 
@@ -457,12 +456,12 @@ line-height: 20px; /* 125% */
   color: white;
   border: none;
   padding: 5px 30px 6px 30px;
- font-family: Aeonik;
-font-size: 14px;
-font-style: normal;
-font-family: "Mansfield";
-font-weight: 700;
-line-height: 20px;
+  font-family: Aeonik;
+  font-size: 14px;
+  font-style: normal;
+  font-family: "Mansfield";
+  font-weight: 700;
+  line-height: 20px;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -494,10 +493,10 @@ line-height: 20px;
   color: white;
   padding: 20px;
   font-family: "Mansfield";
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .sidebar-content {
@@ -552,8 +551,6 @@ line-height: normal;
   border-bottom: none;
 }
 
-
-
 .pagination-container {
   display: flex;
   justify-content: center;
@@ -562,7 +559,7 @@ line-height: normal;
 
 .pagination .page-link {
   border: none;
-  color: #1B1B1A;
+  color: #1b1b1a;
   padding: 12px 16px;
   margin: 0 2px;
   border-radius: 50%;
@@ -630,10 +627,10 @@ line-height: normal;
   width: 100%;
   text-align: left;
   font-family: Mansfield;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 22px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
   color: #212833;
   display: flex;
   justify-content: space-between;
@@ -641,7 +638,6 @@ line-height: 22px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
 
 .faq-icon {
   width: 20px;
@@ -670,11 +666,11 @@ line-height: 22px;
 
 .faq-answer-content {
   color: #212833;
-font-family: "Mansfield";
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 22px;
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
 }
 
 .pagination-container {
@@ -803,14 +799,14 @@ line-height: 22px;
 .custom-nav .nav-link {
   background-color: #ffffff;
   border: 1px solid #ddd;
-  color: #1B1B1A;
+  color: #1b1b1a;
   padding: 10px 20px;
   text-decoration: none;
   font-family: "Mansfield";
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 22px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
   transition: all 0.3s ease;
 }
 
@@ -882,7 +878,7 @@ line-height: 22px;
 .nav-tab {
   background-color: white;
   border: 1px solid #7db3e8;
-  color:#1B1B1A;
+  color: #1b1b1a;
   padding: 12px 24px;
   cursor: pointer;
   font-size: 14px;
@@ -907,7 +903,7 @@ line-height: 22px;
   color: white;
   border-color: #006ab2;
   font-weight: bold;
-   font-family: "Mansfield";
+  font-family: "Mansfield";
 }
 
 .search-container {
@@ -922,7 +918,7 @@ line-height: 22px;
   border-radius: 4px;
   font-size: 14px;
   width: 300px;
-   font-family: "Mansfield";
+  font-family: "Mansfield";
   outline: none;
   color: #999;
 }
@@ -1114,7 +1110,6 @@ line-height: 22px;
     width: 200px;
   }
 }
-
 
 /* LIVE IN RWANDA */
 
@@ -1612,8 +1607,8 @@ ul {
 .product-info {
   background-color: #eff3f6 !important;
 }
-.title-product{
-  text-align: center!important;
+.title-product {
+  text-align: center !important;
 }
 /* PRICE */
 /* ─────────  SECTION BACKGROUND  ───────── */
@@ -1692,7 +1687,8 @@ ul {
   top: 6px;
   width: 16px;
   height: 16px;
- background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='26' viewBox='0 0 25 26' fill='none'%3E%3Cpath d='M24.9908 12.85C22.3099 13.083 20.3367 13.3327 19.0712 13.5991C17.5393 13.932 16.3654 14.4147 15.5495 15.0473C14.8834 15.5634 14.3589 16.2542 13.9759 17.1198C13.6096 17.9522 13.3098 19.0592 13.0767 20.4408C12.8936 21.5728 12.7021 23.2042 12.5022 25.335C12.3024 23.1043 12.1026 21.423 11.9028 20.291C11.653 18.8927 11.3366 17.7774 10.9537 16.945C10.5374 16.0794 9.9629 15.3969 9.23024 14.8975C8.43097 14.3315 7.26537 13.8904 5.73344 13.5741C4.51788 13.3244 2.61129 13.083 0.0136719 12.85C2.72785 12.6003 4.69272 12.3506 5.90828 12.1009C7.45686 11.7679 8.63079 11.2935 9.43005 10.6776C10.0961 10.1449 10.629 9.44572 11.0286 8.58009C11.3949 7.74776 11.6946 6.64075 11.9278 5.25908C12.1109 4.14375 12.3024 2.51238 12.5022 0.36496C12.6854 2.34591 12.8602 3.86908 13.0268 4.93447C13.2432 6.24956 13.5013 7.31494 13.8011 8.13063C14.1341 8.99626 14.5712 9.69958 15.1124 10.2406C15.6535 10.7816 16.357 11.2186 17.2229 11.5515C18.0388 11.8512 19.1045 12.1092 20.42 12.3256C21.4857 12.4921 23.0093 12.6668 24.9908 12.85Z' fill='%23009448'/%3E%3C/svg%3E") no-repeat center/contain;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='26' viewBox='0 0 25 26' fill='none'%3E%3Cpath d='M24.9908 12.85C22.3099 13.083 20.3367 13.3327 19.0712 13.5991C17.5393 13.932 16.3654 14.4147 15.5495 15.0473C14.8834 15.5634 14.3589 16.2542 13.9759 17.1198C13.6096 17.9522 13.3098 19.0592 13.0767 20.4408C12.8936 21.5728 12.7021 23.2042 12.5022 25.335C12.3024 23.1043 12.1026 21.423 11.9028 20.291C11.653 18.8927 11.3366 17.7774 10.9537 16.945C10.5374 16.0794 9.9629 15.3969 9.23024 14.8975C8.43097 14.3315 7.26537 13.8904 5.73344 13.5741C4.51788 13.3244 2.61129 13.083 0.0136719 12.85C2.72785 12.6003 4.69272 12.3506 5.90828 12.1009C7.45686 11.7679 8.63079 11.2935 9.43005 10.6776C10.0961 10.1449 10.629 9.44572 11.0286 8.58009C11.3949 7.74776 11.6946 6.64075 11.9278 5.25908C12.1109 4.14375 12.3024 2.51238 12.5022 0.36496C12.6854 2.34591 12.8602 3.86908 13.0268 4.93447C13.2432 6.24956 13.5013 7.31494 13.8011 8.13063C14.1341 8.99626 14.5712 9.69958 15.1124 10.2406C15.6535 10.7816 16.357 11.2186 17.2229 11.5515C18.0388 11.8512 19.1045 12.1092 20.42 12.3256C21.4857 12.4921 23.0093 12.6668 24.9908 12.85Z' fill='%23009448'/%3E%3C/svg%3E")
+    no-repeat center/contain;
 }
 
 /* nested unordered list (for pricing strategies) */
@@ -2138,7 +2134,7 @@ ul {
   padding: 80px 0;
 }
 /* FQA */
-.accordion-item {
+.trade-section .accordion-item {
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 8px 94px 0px rgba(8, 57, 65, 0.05);
@@ -2258,13 +2254,13 @@ ul {
 }
 
 .tender-title {
-  color:#1B1B1A;
+  color: #1b1b1a;
   margin: 0;
   font-family: "Aeonik";
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .download-btn {
@@ -2273,10 +2269,10 @@ line-height: 20px;
   border: none;
   padding: 12px 25px;
   font-family: "Aeonik";
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 20px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   flex-shrink: 0;
@@ -2327,7 +2323,7 @@ line-height: 20px;
 
 @media (max-width: 768px) {
   .hero-title {
-    font-size: 30PX;
+    font-size: 30px;
   }
 
   .tender-item {
@@ -2351,4 +2347,3 @@ line-height: 20px;
     font-size: 14px;
   }
 }
-
