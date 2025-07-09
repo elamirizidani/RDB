@@ -344,7 +344,7 @@
                         A step-by-step video guide to help you register your business in under 6 hours through Rwanda’s
                         fully online, investor-friendly One Stop Center platform.
                     </p>
-                    <a href="" class="btn rdb-btn-green">Explore More</a>
+                    <a href="./SEZ.php" class="btn rdb-btn-green">Explore More</a>
                 </div>
 
 

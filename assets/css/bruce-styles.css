@@ -1260,7 +1260,7 @@ html {
 }
 
 .sez-page .section-title-heading {
-  text-align: center;
+  /* text-align: center; */
   color: #006ab2;
 }
 
@@ -1301,7 +1301,7 @@ html {
 }
 
 .why-invest img {
-  width: 50%;
+  width: 90%;
 }
 
 .why-invest .section-content {
@@ -1841,8 +1841,13 @@ section.vr-hero {
 
 @media (max-width: 768px) {
   .vr-experiences .rdb-grid-items,
-  .vr-options .rdb-grid-items {
+  .vr-options .rdb-grid-items,
+  .rdb-grid-items {
     grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .sez-incentives .rdb-grid-item {
+    flex: unset !important;
   }
 
   .vr-hero-contents {
