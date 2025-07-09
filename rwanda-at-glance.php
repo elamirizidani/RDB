@@ -304,6 +304,12 @@
     </section>
 
     <?php require_once './assets/footer.php';?>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel JS -->
+
 </body>
 
 </html>

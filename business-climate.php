@@ -205,6 +205,9 @@
     <?php require_once './assets/footer.php';?>
     <script src="./assets/js/stories.js"></script>
     <script src="https://kit.fontawesome.com/1e5afde2bc.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
