@@ -1,0 +1,2354 @@
+/*  NEWS PAGE */
+/* ================== HERO SECTION ================== */
+.hero-section {
+  background-color: #006ab2;
+  color: white;
+  padding: 80px 0;
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Mansfield";
+  line-height: 50px;
+  margin-bottom: 0;
+}
+
+.category-tabs {
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+
+.nav-pills .nav-link {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border-radius: 0;
+  margin-right: 2px;
+  padding: 12px 24px;
+  font-weight: 500;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #006ab2;
+  color: white;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  border: 2px solid #e9ecef;
+  border-radius: 0;
+  padding: 12px 50px 12px 20px;
+}
+
+.search-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #006ab2;
+  border: none;
+  color: white;
+  padding: 0 20px;
+  border-radius: 0;
+}
+
+.article-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.article-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  position: relative;
+}
+
+.category-badge {
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  background-color: #006ab2;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.article-content {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 200px);
+}
+
+.article-title {
+  font-family: "Mansfield";
+  color:#063232;
+ font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.article-excerpt {
+  font-family: "Mansfield";
+font-size: 16px;
+color: #212833;
+font-style: normal;
+font-weight: 300;
+line-height: 22px;
+  flex-grow: 1;
+}
+
+.continue-reading {
+  color:  #009448;
+
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.pagination-section {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 80px;
+}
+
+.page-btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dee2e6;
+  background-color: white;
+  color: #6c757d;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.page-btn.active {
+  background-color: #2980b9;
+  color: white;
+  border-color: #2980b9;
+}
+
+.page-btn:hover:not(.active) {
+  background-color: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.page-btn.nav-btn {
+  font-size: 16px;
+    font-family: "Mansfield";
+}
+
+/*  REPORT PAGE */
+.document-item {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  border: 1px solid #e9ecef;
+}
+
+.document-item:hover {
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.document-icon {
+  width: 60px;
+  height: 60px;
+  background: #006ab2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+  flex-shrink: 0;
+}
+
+.document-icon svg {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+
+.document-content {
+  flex-grow: 1;
+}
+
+.document-title {
+  font-family: "Mansfield";
+font-size: 16px;
+font-style: normal;
+color: #1B1B1A;
+font-weight: 400;
+line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.document-meta {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.download-btn {
+  background-color: #009448;
+  color: white;
+   font-family: "Mansfield";
+  border: none;
+  padding: 5px 30px 6px 30px;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #009448;
+  color: white;
+  text-decoration: none;
+}
+
+.download-btn svg {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.sidebar {
+  background: white;
+  border-radius: 8px;
+  padding: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.sidebar-header {
+  background: #006ab2;
+  color: white;
+font-family: "Mansfield";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.sidebar-content {
+  padding: 20px;
+}
+
+.search-box {
+  margin-bottom: 25px;
+}
+
+.search-input {
+  border: 2px solid #B3BABC;
+  border-radius: 5px;
+  padding: 11px 20px;
+  width: 100%;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #f1592a;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid ;
+  font-family: "Aeonik";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #1B1B1A;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.category-item:hover {
+  color: #006ab2;
+  text-decoration: none;
+}
+
+.category-item:last-child {
+  border-bottom: none;
+}
+
+.category-count {
+  color: #1B1B1A;
+  text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.pagination .page-link {
+  border: none;
+  color: #6c757d;
+  padding: 12px 16px;
+  margin: 0 2px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #006ab2;
+  color: white;
+}
+
+.pagination .page-link:hover {
+  background-color: #f8f9fa;
+  color: #006ab2;
+}
+
+/* RESPONSIVNESS NEWS*/
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 30px;
+  }
+
+  .nav-pills .nav-link {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  .article-content {
+    padding: 20px;
+  }
+
+  .article-title {
+    font-size: 15px;
+  }
+}
+
+
+/* REPORTS PAGE*/
+
+.document-item {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  border: 1px solid #e9ecef;
+}
+.section-doc {
+  padding: 80px 0;
+}
+.document-item:hover {
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.document-icon {
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+  flex-shrink: 0;
+}
+
+.document-icon svg {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+
+.document-content {
+  flex-grow: 1;
+}
+
+.document-title {
+ font-family: Aeonik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+color: #1B1B1A;
+line-height: 20px; /* 125% */
+  margin-bottom: 5px;
+}
+
+.document-meta {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.download-btn {
+  background-color: #009448;
+  color: white;
+  border: none;
+  padding: 5px 30px 6px 30px;
+ font-family: Aeonik;
+font-size: 14px;
+font-style: normal;
+font-family: "Mansfield";
+font-weight: 700;
+line-height: 20px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #009448;
+  color: white;
+  text-decoration: none;
+}
+
+.download-btn svg {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.sidebar {
+  background: white;
+  border-radius: 8px;
+  padding: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.sidebar-header {
+  background: #006ab2;
+  color: white;
+  padding: 20px;
+  font-family: "Mansfield";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.sidebar-content {
+  padding: 20px;
+}
+
+.search-box {
+  margin-bottom: 25px;
+}
+
+.search-input {
+  border: 2px solid #e9ecef;
+  border-radius: 5px;
+  padding: 12px 45px 12px 15px;
+  width: 100%;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-icon-report {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e9ecef;
+  color: #495057;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.category-item:hover {
+  color: #006ab2;
+  text-decoration: none;
+}
+
+.category-item:last-child {
+  border-bottom: none;
+}
+
+
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.pagination .page-link {
+  border: none;
+  color: #1B1B1A;
+  padding: 12px 16px;
+  margin: 0 2px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #006ab2;
+  color: white;
+}
+
+.pagination .page-link:hover {
+  background-color: #f8f9fa;
+  color: #1e88e5;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 30px;
+  }
+
+  .document-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .document-icon {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .download-btn {
+    margin-top: 15px;
+  }
+}
+
+/*  FREQUENTLY PAGE */
+
+.faq-container {
+  margin: 0 auto;
+}
+
+.faq-item {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+  background: #f8f9fa;
+  border: none;
+  padding: 25px 30px;
+  width: 100%;
+  text-align: left;
+  font-family: Mansfield;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px;
+  color: #212833;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.faq-icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+  margin-left: 15px;
+}
+
+.faq-question.active .faq-icon {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  padding: 0 30px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.faq-answer.show {
+  padding: 25px 30px;
+  max-height: 500px;
+}
+
+.faq-answer-content {
+  color: #212833;
+font-family: "Mansfield";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.pagination .page-link {
+  border: none;
+  color: #6c757d;
+  padding: 12px 16px;
+  margin: 0 2px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #006ab2;
+  color: white;
+}
+
+.pagination .page-link:hover {
+  background-color: #f8f9fa;
+  color: #006ab2;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 30px;
+  }
+
+  .faq-question {
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  .faq-answer.show {
+    padding: 20px;
+  }
+
+  .faq-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+}
+
+/*MEDIA PAGE */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Section */
+.header-section {
+  background: linear-gradient(
+    135deg,
+    #006ab2 0%,
+    #006ab2 50%,
+    #207cca 51%,
+    #7db9e8 100%
+  );
+  color: white;
+  padding: 40px 0;
+  text-align: left;
+}
+
+.header-title {
+  font-size: 48px !important;
+  font-weight: 900 !important;
+  font-family: "Mansfield";
+  line-height: 50px !important;
+  margin: 0;
+}
+
+/* Navigation Section */
+.nav-section {
+  background: linear-gradient(
+    135deg,
+    #e8f4fd 0%,
+    #d1e9f8 25%,
+    #c4e2f5 50%,
+    #b8daf2 75%,
+    #acd2ef 100%
+  );
+  background-image: radial-gradient(
+      circle at 20% 50%,
+      rgba(255, 255, 255, 0.3) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 80% 20%,
+      rgba(255, 255, 255, 0.2) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 40% 80%,
+      rgba(255, 255, 255, 0.1) 0%,
+      transparent 50%
+    );
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-nav {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.custom-nav .nav-item {
+  margin-right: 20px;
+}
+
+.custom-nav .nav-link {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  color: #1B1B1A;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: "Mansfield";
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px;
+  transition: all 0.3s ease;
+}
+
+.custom-nav .nav-link:hover {
+  background-color: #f0f8ff;
+  color: #006ab2;
+}
+
+.custom-nav .nav-link.active {
+  background-color: #006ab2;
+  color: white;
+  border-color: #006ab2;
+}
+
+.search-icon {
+  position: absolute;
+  right: 20px;
+  background-color: #006ab2;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-icon:hover {
+  background-color: #006ab2;
+}
+
+/* Gallery Section */
+
+/* Header Styles */
+.header {
+  background-color: #1e5aa8;
+  color: white;
+  padding: 200px 0 80px 0;
+}
+
+.header-title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 50px;
+  font-family: "Mansfield";
+  margin: 0;
+}
+
+/* Navigation Styles */
+.navigation {
+  background-color: #006ab24d;
+  padding: 20px 0;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-tabs {
+  display: flex;
+  gap: 7px;
+}
+
+.nav-tab {
+  background-color: white;
+  border: 1px solid #7db3e8;
+  color:#1B1B1A;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 14px;
+  border-right: none;
+  font-family: "Mansfield";
+  font-weight: normal;
+}
+
+.nav-tab:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.nav-tab:last-child {
+  border-right: 1px solid #7db3e8;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.nav-tab.active {
+  background-color: #006ab2;
+  color: white;
+  border-color: #006ab2;
+  font-weight: bold;
+   font-family: "Mansfield";
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-input {
+  padding: 12px 50px 12px 16px;
+  border: 1px solid #7db3e8;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 300px;
+   font-family: "Mansfield";
+  outline: none;
+  color: #999;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.search-button {
+  position: absolute;
+  right: 8px;
+  background-color: #1e5aa8;
+  border: none;
+  padding: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main Content */
+.main-content {
+  padding: 80px 0 !important;
+}
+
+/* Photo Grid */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.photo-item {
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.photo-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Specific grid layout to match the image */
+.photo-item:nth-child(1) {
+  grid-column: span 2;
+  height: 383px;
+}
+
+.photo-item:nth-child(2) {
+  grid-column: span 2;
+  height: 383px;
+}
+
+.photo-item:nth-child(3),
+.photo-item:nth-child(4),
+.photo-item:nth-child(5),
+.photo-item:nth-child(6) {
+  grid-column: span 1;
+  height: 320px;
+}
+
+.photo-item:nth-child(7),
+.photo-item:nth-child(8),
+.photo-item:nth-child(9) {
+  grid-column: span 1;
+  height: 313px;
+}
+
+.photo-item:nth-child(10) {
+  grid-column: span 1;
+  height: 313px;
+}
+
+.photo-item:nth-child(11) {
+  grid-column: span 2;
+  height: 300px;
+}
+
+.photo-item:nth-child(12) {
+  grid-column: span 2;
+  height: 300px;
+}
+
+.photo-item:nth-child(13),
+.photo-item:nth-child(14) {
+  grid-column: span 2;
+  height: 300px;
+}
+
+.photo-item:nth-child(15),
+.photo-item:nth-child(16) {
+  grid-column: span 2;
+  height: 300px;
+}
+
+.photo-item:nth-child(17),
+.photo-item:nth-child(18),
+.photo-item:nth-child(19) {
+  grid-column: span 1;
+  height: 300px;
+}
+
+.photo-item:nth-child(20),
+.photo-item:nth-child(21),
+.photo-item:nth-child(22) {
+  grid-column: span 1;
+  height: 300px;
+}
+
+.photo-item:nth-child(23),
+.photo-item:nth-child(24),
+.photo-item:nth-child(25) {
+  grid-column: span 1;
+  height: 300px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.pagination-dots {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #1e5aa8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .reverse-section {
+    flex-direction: column-reverse !important;
+  }
+
+  .stick-nav {
+    overflow-x: scroll;
+    height: 40px;
+  }
+  .stick-nav a {
+    white-space: nowrap;
+  }
+  .rdb-opportunity-grid,
+  .rource-document-wrapper,
+  .site-footer .usefull-links-wrapper,
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .site-footer .usefull-links-wrapper {
+    column-gap: 20px !important;
+    row-gap: 20px;
+  }
+
+  .site-footer .lower-row {
+    padding-left: 20px !important;
+  }
+
+  .site-footer .lower-row-000 p {
+    text-align: center !important;
+  }
+
+  .photo-item:nth-child(n) {
+    grid-column: span 1 !important;
+    height: 150px !important;
+  }
+
+  .nav-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .search-input {
+    width: 200px;
+  }
+}
+
+
+/* LIVE IN RWANDA */
+
+/* HERO SECTION  */
+.hero-section-live {
+  background: linear-gradient(#21252900 0%, #212529c2 76%),
+    url("../img/live-hero.webp");
+
+  min-height: 590px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  position: relative;
+}
+.hero-title-live {
+  font-family: "Mansfield";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  padding-bottom: 30px;
+  color: #fff;
+  line-height: 50px;
+}
+.hero-subtitle-live {
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  color: #fff;
+  line-height: 22px;
+}
+/* PERMIT SECTION  */
+
+.permit-live {
+  background: #eff3f6;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.main-content {
+  align-items: center !important;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+.section-card {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+.image-work {
+  background: url("../img/permit-1.webp");
+}
+.image-house {
+  background: url("../img/permit-2.webp");
+}
+.image-education {
+  background: url("../img/permit-3.webp");
+}
+.image-cultural {
+  background: url("../img/permit-4.webp");
+}
+.section-card.reverse {
+  flex-direction: row-reverse;
+}
+.section-tag {
+  font-family: "Mansfield";
+  font-size: 16px;
+  color: #009448;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+}
+.section-title {
+  font-family: "Mansfield";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  color: #006ab2;
+  line-height: normal;
+}
+.section-subtitle {
+  font-family: "Mansfield";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #006ab2;
+  line-height: normal;
+}
+.card-content {
+  padding: 45px 30px;
+  display: flex;
+  gap: 25px;
+  row-gap: 15px;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  /* width:610px;
+             height: 100%; */
+}
+.checkmark-list {
+  list-style: none;
+  padding-left: 0;
+  font-family: "Mansfield";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  color: #212833;
+  line-height: 20px;
+}
+
+.checkmark-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 8px;
+}
+
+.checkmark-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 16px;
+  height: 17px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='17' viewBox='0 0 16 17' fill='none'%3E%3Cpath d='M7.9987 1.70972C4.33203 1.70972 1.33203 4.70972 1.33203 8.37638C1.33203 12.043 4.33203 15.043 7.9987 15.043C11.6654 15.043 14.6654 12.043 14.6654 8.37638C14.6654 4.70972 11.6654 1.70972 7.9987 1.70972ZM6.66536 11.7097L3.33203 8.37638L4.27203 7.43638L6.66536 9.82305L11.7254 4.76305L12.6654 5.70972L6.66536 11.7097Z' fill='%23006AB2'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+}
+
+.card-image {
+  /* width: 610px; */
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+}
+.btn-primary {
+  background: #006ab2;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+.btn-primary:hover {
+  background: #006ab2;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #006ab2;
+  padding: 10px 25px;
+  border-radius: 0px;
+  border: 1px solid #006ab2;
+}
+
+.btn-secondary:hover {
+  background: none;
+  color: #006ab2;
+}
+.button-group {
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.permit-live .main-content {
+  display: block; /* Override any flex display */
+  justify-content: center;
+}
+
+.permit-live .main-content {
+  display: block !important;
+  flex-direction: column;
+  justify-content: center;
+}
+.permit-live .section-card {
+  margin-bottom: 3rem;
+}
+
+/* Success Stories */
+.success-stories {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url("../img/bg-testimony.webp");
+  background-size: 80% 60%;
+  background-color: #006ab2;
+  background-position: center;
+  min-height: 605px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.success-stories h2 {
+  color: white;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "Mansfield";
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.rating {
+  margin-bottom: 30px;
+}
+
+.rating i {
+  color: #ffd700;
+  font-size: 1.5rem;
+  margin: 0 3px;
+}
+
+.testimonial-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-family: "Mansfield";
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-style: normal;
+  margin-bottom: 130px;
+}
+
+.testimonial-avatars {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  place-self: center;
+  width: 26%;
+  margin-top: -170px;
+}
+
+.testimonial-avatars img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  filter: grayscale(1);
+}
+.testimonial-avatars img.active {
+  filter: grayscale(0);
+}
+
+.testimonial-navigation {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  left: 0;
+  display: flex;
+  pointer-events: painted !important;
+  justify-content: space-between;
+}
+
+.testimonial-author {
+  color: white;
+  font-weight: 600;
+  font-family: "Mansfield";
+}
+
+.testimonial-title {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  font-family: "Mansfield";
+}
+
+/* EXPORT PAGE   */
+
+/* HERO SECTION  */
+.hero-section-export {
+  background: linear-gradient(#21252900 0%, #393c3eb2 70%),
+    url("../img/export-hero.webp");
+
+  min-height: 570px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  position: relative;
+}
+.hero-title-export {
+  font-family: "Mansfield";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  padding-bottom: 30px;
+  color: #fff;
+  line-height: 50px;
+}
+.hero-subtitle-export {
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  color: #fff;
+  line-height: 22px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-linkss {
+  display: flex;
+  list-style: none;
+  gap: 45px;
+}
+
+.nav-linkss a {
+  text-decoration: none;
+  font-family: "Mansfield";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+ul {
+  padding-left: 0 !important;
+}
+.nav-linkss a:hover {
+  color: #006ab2;
+}
+.export {
+  background-color: #eff3f6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.export {
+  background: #eff3f6;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+/* export card  */
+.section-card-export {
+  background-color: #fff;
+  display: flex;
+  padding: 80px 80px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+.section-title-export {
+  font-family: "Mansfield";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  color: #006ab2;
+  line-height: 40px;
+}
+.section-content-export {
+  font-family: Mansfield;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  color: #212833;
+}
+.image-exports {
+  background: url("../img/Layer_2.png");
+}
+.image-exports {
+  width: 610px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content-export {
+  padding: 45px 30px;
+  display: flex;
+  gap: 25px;
+  row-gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+  /* width:610px;
+             height: 100%; */
+}
+
+.checkmarks-list {
+  list-style: none;
+  padding-left: 0;
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: #212833;
+  line-height: 20px;
+}
+
+.checkmarks-list li {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 8px;
+  gap: 10px;
+}
+
+.checkmarks-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 25px;
+  height: 25px;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill='none'><path d='M24.9908 12.485C22.3099 12.718 20.3367 12.9677 19.0712 13.2341C17.5393 13.567 16.3654 14.0498 15.5495 14.6823C14.8834 15.1984 14.3589 15.8892 13.9759 16.7548C13.6096 17.5872 13.3098 18.6942 13.0767 20.0759C12.8936 21.2078 12.7021 22.8392 12.5022 24.97C12.3024 22.7393 12.1026 21.058 11.9028 19.926C11.653 18.5277 11.3366 17.4124 10.9537 16.5801C10.5374 15.7144 9.9629 15.0319 9.23024 14.5325C8.43097 13.9665 7.26537 13.5254 5.73344 13.2091C4.51788 12.9594 2.61129 12.718 0.0136719 12.485C2.72785 12.2353 4.69272 11.9856 5.90828 11.7359C7.45686 11.4029 8.63079 10.9285 9.43005 10.3126C10.0961 9.77989 10.629 9.08073 11.0286 8.2151C11.3949 7.38277 11.6946 6.27576 11.9278 4.89409C12.1109 3.77876 12.3024 2.14739 12.5022 -3.05176e-05C12.6854 1.98092 12.8602 3.50409 13.0268 4.56948C13.2432 5.88457 13.5013 6.94995 13.8011 7.76564C14.1341 8.63127 14.5712 9.33459 15.1124 9.87561C15.6535 10.4166 16.357 10.8536 17.2229 11.1865C18.0388 11.4862 19.1045 11.7442 20.42 11.9606C21.4857 12.1271 23.0093 12.3019 24.9908 12.485Z' fill='%23009448'/></svg>");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.card-exports {
+  background-color: #eff3f6;
+  display: flex;
+  /* padding: 80px 80px; */
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+  overflow: hidden;
+}
+.title-exports {
+  font-family: "Mansfield";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  color: #006ab2;
+  line-height: 40px;
+}
+.content-exports {
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  color: #212833;
+}
+.image-exportss {
+  background: url("../img/export-2.webp");
+}
+.image-exportss {
+  width: 610px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content-exports {
+  padding: 45px 30px;
+  display: flex;
+  gap: 25px;
+  row-gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+  /* width:610px;
+             height: 100%; */
+}
+.checkmarkss-list {
+  list-style: none;
+  padding-left: 0;
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  color: #212833;
+  line-height: 20px;
+}
+
+.checkmarkss-list li {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 8px;
+  gap: 10px;
+}
+
+.checkmarkss-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 25px;
+  height: 25px;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill='none'><path d='M24.9908 12.485C22.3099 12.718 20.3367 12.9677 19.0712 13.2341C17.5393 13.567 16.3654 14.0498 15.5495 14.6823C14.8834 15.1984 14.3589 15.8892 13.9759 16.7548C13.6096 17.5872 13.3098 18.6942 13.0767 20.0759C12.8936 21.2078 12.7021 22.8392 12.5022 24.97C12.3024 22.7393 12.1026 21.058 11.9028 19.926C11.653 18.5277 11.3366 17.4124 10.9537 16.5801C10.5374 15.7144 9.9629 15.0319 9.23024 14.5325C8.43097 13.9665 7.26537 13.5254 5.73344 13.2091C4.51788 12.9594 2.61129 12.718 0.0136719 12.485C2.72785 12.2353 4.69272 11.9856 5.90828 11.7359C7.45686 11.4029 8.63079 10.9285 9.43005 10.3126C10.0961 9.77989 10.629 9.08073 11.0286 8.2151C11.3949 7.38277 11.6946 6.27576 11.9278 4.89409C12.1109 3.77876 12.3024 2.14739 12.5022 -3.05176e-05C12.6854 1.98092 12.8602 3.50409 13.0268 4.56948C13.2432 5.88457 13.5013 6.94995 13.8011 7.76564C14.1341 8.63127 14.5712 9.33459 15.1124 9.87561C15.6535 10.4166 16.357 10.8536 17.2229 11.1865C18.0388 11.4862 19.1045 11.7442 20.42 11.9606C21.4857 12.1271 23.0093 12.3019 24.9908 12.485Z' fill='%23009448'/></svg>");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+/* products */
+.products {
+  background-color: #fff !important;
+}
+.product-info {
+  background-color: #eff3f6 !important;
+}
+.title-product{
+  text-align: center!important;
+}
+/* PRICE */
+/* ─────────  SECTION BACKGROUND  ───────── */
+.price {
+  background: #006ab2;
+  padding: 80px 0;
+  text-align: center;
+  color: #fff;
+}
+
+/* section title */
+.price__title {
+  margin: 0 0 48px;
+  font-family: "Mansfield";
+  font-size: 36px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+/* ─────────  FLEX LAYOUT  ───────── */
+.price__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+/* ─────────  CARD  ───────── */
+.price-card {
+  background: #fff;
+  color: #1e1e1e;
+  border-radius: 10px;
+  border: 1px solid var(--card-border);
+  box-shadow: 20px 20px 90px 1px var(--card-shadow) inset;
+  padding: 48px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.price-card h3 {
+  color: var(--blue-600);
+  margin: 24px 0 24px;
+  font-size: 1.4rem;
+}
+
+/* icon at top of each card */
+.card-icon {
+  width: 44px;
+  height: 44px;
+}
+
+/* ─────────  CHECKLIST  ───────── */
+.checklist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.checklist > li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 20px;
+  line-height: 1.55;
+}
+
+/* green star bullet */
+.checklist > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 16px;
+  height: 16px;
+ background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='26' viewBox='0 0 25 26' fill='none'%3E%3Cpath d='M24.9908 12.85C22.3099 13.083 20.3367 13.3327 19.0712 13.5991C17.5393 13.932 16.3654 14.4147 15.5495 15.0473C14.8834 15.5634 14.3589 16.2542 13.9759 17.1198C13.6096 17.9522 13.3098 19.0592 13.0767 20.4408C12.8936 21.5728 12.7021 23.2042 12.5022 25.335C12.3024 23.1043 12.1026 21.423 11.9028 20.291C11.653 18.8927 11.3366 17.7774 10.9537 16.945C10.5374 16.0794 9.9629 15.3969 9.23024 14.8975C8.43097 14.3315 7.26537 13.8904 5.73344 13.5741C4.51788 13.3244 2.61129 13.083 0.0136719 12.85C2.72785 12.6003 4.69272 12.3506 5.90828 12.1009C7.45686 11.7679 8.63079 11.2935 9.43005 10.6776C10.0961 10.1449 10.629 9.44572 11.0286 8.58009C11.3949 7.74776 11.6946 6.64075 11.9278 5.25908C12.1109 4.14375 12.3024 2.51238 12.5022 0.36496C12.6854 2.34591 12.8602 3.86908 13.0268 4.93447C13.2432 6.24956 13.5013 7.31494 13.8011 8.13063C14.1341 8.99626 14.5712 9.69958 15.1124 10.2406C15.6535 10.7816 16.357 11.2186 17.2229 11.5515C18.0388 11.8512 19.1045 12.1092 20.42 12.3256C21.4857 12.4921 23.0093 12.6668 24.9908 12.85Z' fill='%23009448'/%3E%3C/svg%3E") no-repeat center/contain;
+}
+
+/* nested unordered list (for pricing strategies) */
+.checklist li ul {
+  list-style: disc;
+  padding-left: 22px;
+  margin-top: 8px;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* ─────────  RESPONSIVE  ───────── */
+/* TRANSPORT*/
+
+.info-section {
+  display: flex;
+  background-color: #eff3f6;
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
+  padding: 80px 0;
+  flex-wrap: wrap;
+}
+
+.info-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  align-items: center;
+  width: 600px;
+  box-sizing: border-box;
+}
+
+.info-card h3 {
+  color: #006ab2;
+  margin-bottom: 15px;
+}
+
+.info-card p {
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+.card-illustration {
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+
+.info-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.info-card ul li {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.info-card ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 25px;
+  height: 25px;
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill='none'><path d='M24.9908 12.485C22.3099 12.718 20.3367 12.9677 19.0712 13.2341C17.5393 13.567 16.3654 14.0498 15.5495 14.6823C14.8834 15.1984 14.3589 15.8892 13.9759 16.7548C13.6096 17.5872 13.3098 18.6942 13.0767 20.0759C12.8936 21.2078 12.7021 22.8392 12.5022 24.97C12.3024 22.7393 12.1026 21.058 11.9028 19.926C11.653 18.5277 11.3366 17.4124 10.9537 16.5801C10.5374 15.7144 9.9629 15.0319 9.23024 14.5325C8.43097 13.9665 7.26537 13.5254 5.73344 13.2091C4.51788 12.9594 2.61129 12.718 0.0136719 12.485C2.72785 12.2353 4.69272 11.9856 5.90828 11.7359C7.45686 11.4029 8.63079 10.9285 9.43005 10.3126C10.0961 9.77989 10.629 9.08073 11.0286 8.2151C11.3949 7.38277 11.6946 6.27576 11.9278 4.89409C12.1109 3.77876 12.3024 2.14739 12.5022 -3.05176e-05C12.6854 1.98092 12.8602 3.50409 13.0268 4.56948C13.2432 5.88457 13.5013 6.94995 13.8011 7.76564C14.1341 8.63127 14.5712 9.33459 15.1124 9.87561C15.6535 10.4166 16.357 10.8536 17.2229 11.1865C18.0388 11.4862 19.1045 11.7442 20.42 11.9606C21.4857 12.1271 23.0093 12.3019 24.9908 12.485Z' fill='%23009448'/></svg>");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.btn {
+  display: inline-block;
+  background-color: #0066cc;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* =============== Resource Section ===================*/
+
+.resources {
+  background: #006ab2;
+  padding: 80px 0;
+}
+.rource-document-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.resource-doc-item {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 106, 178, 0.1);
+  background: #fff;
+  box-shadow: 20px 20px 90px 1px rgba(0, 106, 178, 0.14) inset;
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex: 1 0 0;
+}
+
+.resources .tittle-resource {
+  color: #212529;
+  text-align: center;
+
+  font-family: "Mansfield";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.resources .link-resource {
+  color: var(--1, #006ab2);
+  text-align: center;
+
+  font-family: "Mansfield";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+/*++++++++++++ REGULATORY PAGE STYLES++++++++++++++ */
+/* Hero section */
+.rdb-section3 {
+  background-color: #006ab2;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.rdb-section3 .w-50 {
+  flex-direction: column;
+  display: flex;
+  gap: 30px;
+}
+.rdb-section3 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 71px;
+}
+.top-breacrump {
+  display: flex;
+  gap: 8px;
+  color: #fff;
+}
+/* ===== layout ===== */
+.steps-section {
+  padding: 60px 20px;
+  font-family: "Mansfield";
+  text-align: center;
+}
+.steps-title {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  color: #006ab2;
+  line-height: 40px;
+  margin-bottom: 60px;
+}
+
+/* Swiper wrapper takes care of row/column; keep cards lightweight */
+.step-box {
+  /* max-width: 350px; */
+  margin: 0 auto;
+  text-align: left;
+}
+.step-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 8px;
+}
+.circle {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #006ab2;
+  border-radius: 50%;
+  padding: 17.727px 13.131px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: #006ab2;
+  line-height: normal;
+  flex-shrink: 0;
+}
+.step-label {
+  font-family: "Mansfield";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  color: #009448;
+  line-height: 20px;
+}
+.step-heading {
+  font-family: "Mansfield";
+  font-size: 20px;
+  font-style: normal;
+  color: #006ab2;
+  font-weight: 700;
+  line-height: normal;
+}
+.step-description {
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  color: #000;
+  line-height: 22px;
+}
+
+/* ---------- progress bars ---------- */
+.step-progress {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  margin-top: 50px;
+}
+.progress-dot {
+  width: 70px;
+  height: 6px;
+  background: #0000001a;
+  border-radius: 3px;
+  transition: background 0.25s;
+}
+.progress-dot.is-active {
+  background: var(--blue);
+}
+/* ===== responsive tweaks ===== */
+@media (min-width: 900px) {
+  /* show three slides side‑by‑side on desktop */
+  .steps-section.slider-enabled .steps-swiper {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .steps-section.slider-enabled .steps-swiper .swiper-wrapper {
+    display: flex;
+  }
+  .steps-section.slider-enabled .steps-swiper .swiper-slide {
+    width: 33.3333%;
+  }
+}
+/* TRADE PAGES */
+/* HERO SECTION  */
+.hero-section-trade {
+  background: linear-gradient(#21252900 0%, #393c3eb2 70%),
+    url("../img/trade-hero.webp");
+
+  min-height: 570px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  align-items: center;
+  position: relative;
+  background-position: center 45%;
+  z-index: 1;
+  display: flex;
+  position: relative;
+}
+.hero-title-trade {
+  font-family: "Mansfield";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  padding-bottom: 30px;
+  color: #fff;
+  line-height: 50px;
+}
+
+.hero-compliance h1 {
+  color: #006ab2;
+  font-family: "Mansfield";
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 50px;
+}
+
+.hero-compliance p {
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  color: #212833;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+.hero-compliance {
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: #009448;
+  line-height: normal;
+}
+
+.hero-compliance .btn {
+  margin-top: 30px;
+  background-color: #006ab2;
+  color: white;
+  padding: 16px 25px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.hero-image-compliance img {
+  object-fit: cover;
+  height: 400px;
+  width: 600px;
+}
+
+.section-title {
+  align-items: center;
+}
+.hero-subtitle-trade {
+  color: #fff;
+}
+.section-subtitle {
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #009448;
+}
+.back-shadow {
+  width: 203px;
+  height: 163px;
+  background: #009448;
+  bottom: -10px;
+  right: -10px;
+  z-index: 1;
+}
+.regulator-trade {
+  background-color: #eff3f6;
+  padding: 80px 0 !important;
+}
+
+.meeting-card {
+  background: #fff;
+  box-shadow: 20px 20px 90px 1px rgba(0, 106, 178, 0.14) inset;
+  height: 100%;
+  border: 1px solid rgba(0, 106, 178, 0.1);
+}
+.meeting-card img {
+  height: 60px;
+}
+.section-title {
+  margin-bottom: 40px;
+}
+.meeting-card p {
+  font-family: "Mansfield";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  padding-bottom: 20px;
+  line-height: 22px;
+  opacity: 0.7;
+  color: #212833;
+}
+.regulator-import {
+  background-color: #fff;
+  padding: 80px 0;
+}
+.card-import {
+  background-color: #006ab2;
+  height: 100%;
+}
+.card-import h1 {
+  color: #fdea00;
+  font-family: "Mansfield";
+  font-size: 24px;
+  font-style: normal;
+  padding-bottom: 20px;
+  font-weight: 700;
+  line-height: normal;
+}
+.feature-import li {
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  color: #fff;
+  list-style-type: disc;
+  padding-left: 0px;
+  line-height: 22px;
+}
+.global {
+  background-color: #eff3f6;
+  padding: 80px 0;
+}
+
+.global-card {
+  background-color: #006ab2;
+  height: 100%;
+}
+.global-card h2 {
+  font-family: "Mansfield";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+  line-height: normal;
+}
+.title-sub-gobl h5 {
+  font-family: "Mansfield";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #212833 !important;
+  line-height: normal;
+}
+.safe-icons svg {
+  padding: 27px 20px;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #006ab2;
+}
+
+.fqu-trade {
+  background-color: #eff3f6;
+  padding: 80px 0;
+}
+/* FQA */
+.accordion-item {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 8px 94px 0px rgba(8, 57, 65, 0.05);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  align-items: stretch;
+  gap: 10px;
+  margin-bottom: 20px;
+  border: none;
+}
+.accordion-header {
+  font-family: "Mansfield";
+  font-size: 16px;
+  font-style: normal;
+  color: #212833;
+  font-weight: 300;
+  background-color: #fff;
+  line-height: 22px;
+}
+.accordion-body {
+  font-family: "Mansfield";
+  font-size: 14px;
+  font-style: normal;
+  color: #000;
+  font-weight: 300;
+  background-color: #fff;
+  line-height: 22px;
+}
+/* tenders */
+
+.hero-section {
+  background: linear-gradient(135deg, #1e6091 0%, #006ab2 100%);
+  color: white;
+  padding: 80px 0;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.tabs-section {
+  background-color: #f8f9fa;
+  padding: 30px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tab-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+}
+
+.tab-btn {
+  background-color: transparent;
+  color: #6c757d;
+  border: none;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 0;
+}
+
+.tab-btn.active {
+  background-color: #006ab2;
+  color: white;
+  border-radius: 8px;
+}
+
+.tab-btn:hover:not(.active) {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.content-section {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.tender-item {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tender-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.tender-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #006ab2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  margin-right: 25px;
+  flex-shrink: 0;
+}
+
+.tender-content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.tender-title {
+  color:#1B1B1A;
+  margin: 0;
+  font-family: "Aeonik";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+
+.download-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-family: "Aeonik";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex-shrink: 0;
+}
+
+.download-btn:hover {
+  background-color: #218838;
+  transform: translateY(-1px);
+}
+
+.pagination-section {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 40px;
+}
+
+.page-btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dee2e6;
+  background-color: white;
+  color: #6c757d;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.page-btn.active {
+  background-color: #006ab2;
+  color: white;
+  border-color: #006ab2;
+}
+
+.page-btn:hover:not(.active) {
+  background-color: #e9ecef;
+  border-color: #adb5bd;
+}
+
+.page-btn.nav-btn {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 30PX;
+  }
+
+  .tender-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .tender-icon {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .tender-content {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .tab-btn {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+}
+

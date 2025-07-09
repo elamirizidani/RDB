@@ -1,0 +1,381 @@
+/* ****=============== Moussa ===================**** */
+
+/* ****=============== Hero section ===================**** */
+.rdb-section2 {
+  background-image: url(../img/image117.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* height: 670px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rdb-section2::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    264deg,
+    rgba(43, 47, 51, 0) 24.23%,
+    rgba(24, 25, 25, 0.6) 52.23%
+  );
+}
+.rdb-section2 .container {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rdb-section2 .rdb-btn-green,
+.Business-in-rwanda .rdb-btn-green {
+  color: #ffffff !important;
+  background: #006ab2 !important;
+  width: fit-content;
+}
+
+.rdb-section .rdb-opportunity-bar {
+  background: #006ab2 !important;
+}
+.rdb-section2 .container .w-50 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-section-heading {
+  /* 48 */
+  font-family: "Mansfield", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 50px;
+}
+
+.yellow-color {
+  color: #fdea00;
+}
+.small-text-font {
+  color: #fff;
+  font-family: "Mansfield" sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+/* =============== Doing Business in Rwanda Section ===================*/
+
+.Business-in-rwanda {
+  padding: 64px 0;
+}
+
+.Business-in-rwanda .with-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Business-in-rwanda .rdb-btn-green {
+  width: fit-content;
+}
+.Business-in-rwanda .text-left {
+  text-align: left;
+}
+
+.accordion-button::after,
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../img/Background+Border.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(45deg);
+}
+.Business-in-rwanda .accordion-button {
+  color: #212833;
+  font-family: "Mansfield", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.dark-color {
+  color: #212833 !important;
+}
+.Business-in-rwanda .accordion-button:not(.collapsed) {
+  color: #212833 !important;
+  background: #fff !important;
+}
+/* =============== Oppotunities Section ===================*/
+.Opportunities {
+  position: relative;
+  display: flex;
+  height: 600px;
+  padding: 50px 100px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  background-image: url("../img/image116.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.Opportunities::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(8, 57, 65, 0) 0%, #000 100%);
+}
+
+.Opportunities .rdb-do-business-hero-content,
+.Opportunities .rdb-register-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Opportunities .rdb-btn-green {
+  color: #006ab2 !important;
+  background: #fdea00 !important;
+  width: fit-content;
+}
+
+/* =============== Resource Section ===================*/
+
+.resources {
+  background: #006ab2;
+  padding: 80px 0;
+}
+.rource-document-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.resource-doc-item {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 106, 178, 0.1);
+  background: #fff;
+  box-shadow: 20px 20px 90px 1px rgba(0, 106, 178, 0.14) inset;
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex: 1 0 0;
+}
+
+.resources .tittle-resource {
+  color: #212529;
+  text-align: center;
+
+  font-family: "Mansfield", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.resources .link-resource {
+  color: var(--1, #006ab2);
+  text-align: center;
+
+  font-family: "Mansfield", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+/*++++++++++++ REGULATORY PAGE STYLES++++++++++++++ */
+/* Hero section */
+.rdb-section3 {
+  background-color: #006ab2;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.rdb-section3 .w-50 {
+  flex-direction: column;
+  display: flex;
+  gap: 30px;
+}
+.rdb-section3 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 71px;
+}
+.top-breacrump {
+  display: flex;
+  gap: 8px;
+  color: #fff;
+}
+
+/* Regulatory services section */
+
+.regulatory-services {
+  background-color: #eff3f6;
+  padding: 30px 0;
+}
+.regulatory-services .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.regulatory-services .row {
+  background-color: #fff;
+}
+
+.regulatory-content {
+  display: flex;
+  flex-direction: column;
+  padding: 45px 30px;
+  justify-content: space-between;
+  gap: 30px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.tourism-regulation,
+.economic-zone,
+.gambling-regulation {
+  min-height: 480px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tourism-regulation {
+  background-image: url("../img/gorilla.webp");
+}
+.regulatory-services .service-name {
+  color: #009448;
+  font-family: Mansfield;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+}
+.regulatory-services .service-descr {
+  color: #006ab2;
+
+  font-family: "Mansfield", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.has-key-list .list-title {
+  color: #006ab2;
+  font-family: "Mansfield", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 15px;
+}
+
+.regulatory-services .small-text-font {
+  color: #212833;
+}
+
+.key-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.key-list .key-list-item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.section-btns {
+  display: flex;
+  gap: 30px;
+}
+
+.regulatory-downlod-btn {
+  display: flex;
+  padding: 10px 25px;
+  align-items: center;
+  border: 1px solid var(--1, #006ab2);
+  background: var(--3, #009448);
+  color: #fff !important;
+}
+
+.regulatory-appl-btn {
+  display: flex;
+  padding: 10px 25px;
+  color: #006ab2 !important;
+  align-items: center;
+  border: 1px solid var(--1, #006ab2);
+}
+
+/* Gambling Regulation services section */
+.gambling-regulation {
+  background-image: url("../img/image118.jpg");
+}
+.row2 {
+  flex-direction: row-reverse;
+}
+/* Special Economic Zone Compliance services section */
+.economic-zone {
+  background-image: url("../img/image119.webp");
+}
+
+/*@@@@@@@@@@@@@ Regulatory Services pages responsiveness @@@@@@@@@@@@@@@*/
+@media (max-width: 768px) {
+  .hero-section-heading {
+    font-size: 32px;
+    line-height: 1.1em;
+  }
+  .rdb-section3 .container {
+    padding-bottom: 40px;
+  }
+  .w-50 {
+    width: 100% !important;
+  }
+  .regulatory-content {
+    gap: 20px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .regulatory-services .row {
+    flex-direction: column-reverse;
+  }
+
+  .tourism-regulation,
+  .economic-zone,
+  .gambling-regulation {
+    min-height: 350px;
+  }
+
+  .regulatory-content {
+    padding: 25px 15px;
+  }
+
+  .section-btns {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .section-btns a {
+    width: fit-content;
+  }
+}

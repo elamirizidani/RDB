@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/fa-styles.css?v=<?=intval(time());?>">
+    <link rel="stylesheet" href="assets/css/global-styles.css?v=<?= intval(time()); ?>"> 
+    <link rel="stylesheet" href="./assets/css/icon-styles.css">
+</head>
+<body>
+    <!-- Header & Topbar -->
+<?php require_once './assets/header.php';?>
+   <!--sub header-->
+<div class="header-contain-fa">
+    <div class="container">
+        <div class="feader-links-fa">
+            <a href="#">Home</a><i class="bi bi-chevron-right"></i>
+            <a href="#">Explore Your Sector</a> <i class="bi bi-chevron-right"></i>
+            <a href="#">ICT</a>
+        </div>
+        <div class="header-title-fa">
+            <h2>ICT</h2>
+        </div>
+    </div>
+</div> 
+<!--Herosection-->
+<div class="hero-section">
+    <div class="container">
+        <img src="./assets/img/hero-imag4-fa.webp" alt="">
+  
+    </div>
+</div>
+
+<!--hero-content-->
+<div class="hero-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h3>Overview</h3>
+                <p>Rwanda presents a robust landscape for investment in the Information and Communication Technology (ICT) sector, driven by government initiatives and a commitment to becoming a regional hub for ICT.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Investment Opportunities section-->
+
+<div class="invest-section">
+    <div class="container">
+        <h2>Investment Opportunities</h2>
+        <div class="invest-sec-cards ">
+            
+            <div class="financial-cards">
+            <div class="cards">
+                <h3>Infrastructure Management Services</h3>
+                <p>With ongoing investments in ICT infrastructure, there are opportunities for managing and enhancing these systems.</p>
+            </div>
+            <div class="cards">
+                <h3>Software Development</h3>
+                <p>The demand for software solutions is growing, creating a need for local development firms.</p>
+            </div>
+            <div class="cards">
+                <h3>Cloud Computing</h3>
+                <p>As businesses transition to digital, cloud services are increasingly essential.</p>
+            </div>
+            <div class="cards">
+                <h3>Business Process Outsourcing (BPO)</h3>
+                <p>Companies are looking to outsource various business functions, providing a market for BPO services.</p>
+            </div>
+            <div class="cards">
+                <h3>Mobile Applications</h3>
+                <p>The surge in mobile phone usage opens avenues for app development tailored to local needs.</p>
+            </div>
+            <div class="cards">
+                <h3>E-Government Solutions</h3>
+                <p>There is a significant push for digital government services, creating opportunities for companies that can provide these solutions.</p>
+            </div>
+            <div class="cards">
+                <h3>ICT Education and Training</h3>
+                <p>With a young workforce, there is a need for training programs to develop ICT skills.</p>
+            </div>
+            <div class="cards">
+                <h3>Application Development & Integration</h3>
+                <p>Businesses require tailored applications and integration services.</p>
+            </div>
+            <div class="cards">
+                <h3>IT Consulting</h3>
+                <p>Firms are seeking expert advice on ICT strategy and implementation.</p>
+            </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--Incentives for investors in the sector section-->
+
+<div class="Incentives">
+    <div class="container">
+        <h2>Incentives for investors in the sector</h2>
+        <div class="ict-incentives-content">
+            <div class="card">
+                <h3>Tax Incentives</h3>
+                <p>A corporate income tax rate of 15% applies to registered ICT firms, with potential tax holidays of up to seven years for significant investments (over $50 million) in manufacturing or services.</p>
+            </div>
+            <div class="card">
+                <h3>VAT Exemption</h3>
+                <p>Investors can benefit from VAT exemptions on certain IT equipment, reducing initial setup costs.</p>
+            </div>  
+            <div class="card">
+                <h3>Immigration Incentives</h3>
+                <p>Investors can obtain residence permits and recruit foreign employees without the usual labor market assessments, facilitating the hiring of specialized skills.</p>
+            </div>
+
+        </div>
+        </div>
+</div>
+
+<?php require_once './assets/footer.php';?>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script> 
+</body>
+</html>

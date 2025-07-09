@@ -1,0 +1,974 @@
+/* ========================= HERO SECTION ========================= */
+.rdb-hero {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+  /* overflow: hidden; */
+  position: relative;
+  background: #0d2139;
+  z-index: 1;
+}
+
+.rdb-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 106, 178, 0) 0.32%,
+    rgba(0, 106, 178, 0.5) 101.04%
+  );
+  opacity: 1;
+}
+
+.vr-hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  pointer-events: none;
+  filter: brightness(0.83) saturate(1.12) contrast(1.09);
+}
+
+.rdb-hero .container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 140px;
+  justify-content: center;
+}
+
+.hero-content {
+  max-width: 660px;
+  margin-left: 0;
+  padding-top: 0;
+}
+
+.hero-content h1 {
+  font-family: var(--font-main);
+  font-size: var(--big-font-size);
+  font-weight: 800;
+  color: var(--white);
+  line-height: 1.13;
+  margin-bottom: 22px;
+  letter-spacing: -0.4px;
+}
+
+.hero-content h1 .yellow-color {
+  color: var(--yellow);
+}
+
+.hero-content p {
+  color: var(--white);
+  font-size: var(--text-font-size);
+  line-height: 1.55;
+  font-weight: 400;
+  margin-bottom: 36px;
+  max-width: 95%;
+  opacity: 0.92;
+}
+
+.hero-content .btn-primary {
+  font-size: var(--text-font-size);
+  padding: 13px 38px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+/* ========================= UTILITIES ========================= */
+.yellow-color {
+  color: var(--yellow) !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+/* ========================= RDB STATS SECTION ========================= */
+.rdb-section.rdb-highlights-section {
+  padding: 40px 20px;
+}
+
+.rdb-highlights-section .container {
+  padding: 40px 25px;
+  border-radius: 10px;
+  background: #006ab2 url("../img/rdb-imigongo.png") center center / cover fixed
+    no-repeat;
+  overflow: hidden;
+}
+
+/* Stats Carousel */
+.rdb-highlights-section #statsCarousel {
+  padding: 0;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+#statsCarousel .content-hodler {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#statsCarousel .stat-slide {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#statsCarousel .stat-slide .numbers,
+#statsCarousel .stat-title {
+  color: var(--white);
+  font-family: var(--font-main);
+}
+
+#statsCarousel .stat-slide .numbers {
+  font-size: var(--primary-font-size);
+  font-weight: 900;
+  line-height: 40px;
+  margin: 0;
+}
+
+#statsCarousel .stat-title {
+  font-size: var(--text-font-size);
+  font-weight: 700;
+}
+
+#statsCarousel .stat-title-next {
+  color: #fff;
+  font-size: var(--secondary-font-size);
+  font-weight: 700;
+}
+
+#statsCarousel .stat-description {
+  color: #fff;
+  font-size: var(--text-font-size);
+  font-weight: 300;
+  line-height: 22px;
+}
+
+#statsCarousel .stat-slide span {
+  border-radius: 65.657px;
+  border: 1px solid var(--yellow);
+  padding: 5px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+}
+
+#statsCarousel .stat-slide span i.rdb-icon {
+  color: #fff;
+}
+
+#statsCarousel .owl-dots {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+  bottom: -10px;
+  padding-bottom: 10px;
+}
+
+#statsCarousel .owl-dot {
+  width: 60px;
+  height: 3px;
+  border-radius: 8px;
+  background: #fff;
+  opacity: 1;
+}
+
+/* =================== WHY INVEST IN RWANDA SECTION =================== */
+.rdb-section.rdb-why-invest {
+  padding-block: 70px;
+}
+
+.rdb-why-invest .rdb-section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.rdb-grid {
+  display: grid;
+  gap: 20px;
+}
+
+/* 2x2 grid */
+.rdb-why-invest .rdb-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 40px;
+}
+
+.rdb-why-invest .rdb-col {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  border-bottom: 1px solid #006ab2;
+  padding-block: 30px;
+}
+
+.rdb-why-invest .rdb-col:nth-of-type(1),
+.rdb-why-invest .rdb-col:nth-of-type(2) {
+  border-top: 1px solid #006ab2;
+}
+
+/* Icon */
+.rdb-why-invest .rdb-col .rdb-icon {
+  font-size: 56px;
+  color: #009448;
+}
+
+/* Grid Content */
+.rdb-why-invest .grid-content {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Point Title & Number */
+.rdb-why-invest .rdb-point-title {
+  font-size: var(--secondary-font-size);
+  font-weight: 700;
+  color: #006ab2;
+}
+
+/* List Style */
+.rdb-why-invest .rdb-list {
+  gap: 16px;
+}
+
+.rdb-why-invest .rdb-list li {
+  color: #212833;
+  font-size: var(--meta-font-size);
+}
+
+.rdb-why-invest .rdb-list li:before {
+  color: #006ab2;
+}
+
+/* =========== INVESTOR CERTAINTY SECTION =========== */
+.rdb-investor-certainty {
+  background: #006ab2
+    url("https://clients.inoventyk.rw/RDB/assets/img/media-18.webp") right
+    center / 65% no-repeat;
+}
+
+.rdb-investor-certainty .container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.rdb-investor-certainty .rdb-flex-grid {
+  display: flex;
+  width: 100%;
+}
+
+.rdb-investor-certainty .rdb-flex-grid > div.grid-content {
+  flex: 0 0 45%;
+  background: #006ab2;
+  padding: 60px 50px 60px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.rdb-investor-certainty .title-heading {
+  color: #fff;
+}
+
+.rdb-investor-certainty .rdb-list-star li {
+  color: #fff;
+  font-size: var(--text-font-size);
+}
+
+.rdb-investor-certainty .rdb-list-star li:before {
+  color: #fdea00;
+  font-size: var(--secondary-font-size);
+}
+
+/* =========== INVESTMENT OPPORTUNITY SECTION =========== */
+.rdb-section.rdb-investment-opportunity {
+  background: #eff3f6;
+  padding: 100px 0 60px;
+}
+
+.rdb-investment-opportunity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 48px;
+}
+
+.rdb-investment-opportunity .title-heading {
+  font-size: var(--primary-font-size);
+  font-weight: 900;
+  color: #006ab2;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+.rdb-section-desc {
+  max-width: 430px;
+  font-size: var(--text-font-size);
+  font-weight: 300;
+  color: #212833;
+  line-height: 22px;
+}
+
+/* Cards Grid */
+.rdb-opportunity-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px 24px;
+  margin-bottom: 40px;
+}
+
+.rdb-opportunity-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 106, 178, 0.04);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-decoration: none;
+  transition: box-shadow 0.18s, transform 0.18s;
+  position: relative;
+}
+
+.rdb-opportunity-card:hover {
+  box-shadow: 0 12px 36px rgba(0, 106, 178, 0.12);
+  transform: translateY(-4px) scale(1.025);
+  z-index: 2;
+}
+
+.rdb-opportunity-image {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  background: #c8c8c8;
+  display: block;
+}
+
+.rdb-opportunity-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 22px 30px;
+  min-height: 76px;
+}
+
+.card-cat-title1 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex: 1 1 auto;
+}
+
+.rdb-opportunity-bar {
+  width: 60px;
+  height: 4px;
+  background: #009448;
+  border-radius: 2px;
+}
+
+.rdb-opportunity-title {
+  font-size: var(--secondary-font-size);
+  font-weight: 700;
+  color: #212833;
+  line-height: 1.1;
+  font-family: var(--font-main);
+  margin-top: 0;
+}
+
+.rdb-opportunity-arrow {
+  color: #009448;
+  font-size: var(--secondary-font-size);
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.rdb-section-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.btn.rdb-btn-green {
+  background: #009448 !important;
+  color: #fff !important;
+  font-weight: 700;
+  font-size: var(--text-font-size);
+  padding: 16px 48px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 106, 178, 0.04);
+}
+
+.btn.rdb-btn-green:hover,
+.btn.rdb-btn-green:focus {
+  background: #00753b !important;
+}
+
+/* ================== RDB DO BUSINESS SECTION ================== */
+.rdb-do-business {
+  padding: 80px 0 0;
+}
+
+.rdb-do-business .container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ---- HERO ---- */
+.rdb-do-business-hero {
+  position: relative;
+  min-height: 570px;
+  border-radius: 14px;
+  background: #0d2139;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 70px 40px;
+  margin-bottom: 80px;
+  box-shadow: 0 0 0 1px rgba(0, 106, 178, 0.04);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.rdb-do-business-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(12, 29, 54, 0) 49%,
+    rgba(0, 0, 0, 0.57) 100%
+  );
+  z-index: 1;
+}
+
+.rdb-do-business-hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.rdb-do-business-hero-content h2 {
+  font-family: var(--font-main);
+  color: #fff;
+  font-size: var(--primary-font-size);
+  font-weight: 900;
+  line-height: 1.13;
+  margin: 0;
+  text-shadow: 0 8px 28px rgba(0, 0, 0, 0.3);
+}
+
+/* ---- Play Button ---- */
+.rdb-do-business-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 3;
+  width: 50px;
+  height: 60px;
+  aspect-ratio: 1/1;
+  background: #26db85;
+  border-radius: 500px;
+  border: none;
+  box-shadow: 0 3px 16px rgba(38, 219, 133, 0.22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--secondary-font-size);
+  color: #fff;
+  cursor: pointer;
+}
+
+.rdb-do-business-play:hover,
+.rdb-do-business-play:focus {
+  background: #14c275;
+}
+
+/* ---- Modal ---- */
+.rdb-do-business-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.rdb-do-business-modal.active {
+  display: flex;
+}
+
+.rdb-do-business-modal-bg {
+  position: absolute;
+  inset: 0;
+  background: rgba(22, 29, 47, 0.82);
+  z-index: 1;
+}
+
+.rdb-do-business-modal-content {
+  position: relative;
+  z-index: 2;
+  background: transparent;
+  border-radius: 14px;
+  overflow: hidden;
+  max-width: 900px;
+  width: 90vw;
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.26);
+  display: flex;
+  flex-direction: column;
+}
+
+.rdb-do-business-modal-close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  z-index: 3;
+  background: rgba(22, 29, 47, 0.32);
+  border: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  font-size: var(--secondary-font-size);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.rdb-do-business-vid {
+  display: block;
+  width: 700px;
+  max-width: 80vw;
+  background: #000;
+  border-radius: 12px;
+}
+
+/* ---- Section below hero ---- */
+.rdb-do-business-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 0 20px 80px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.rdb-do-business-info {
+  width: 430px;
+  min-width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.rdb-do-business-title {
+  color: #006ab2;
+  font-family: var(--font-main);
+  font-size: var(--primary-font-size);
+  font-weight: 900;
+  margin-bottom: 0;
+  line-height: 1.1;
+}
+
+.rdb-do-business-desc {
+  font-size: var(--text-font-size);
+  font-family: var(--font-main);
+  color: #212833;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 0;
+}
+
+.rdb-do-business-cards {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+
+.rdb-do-business-card {
+  flex: 1 1 0;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 106, 178, 0.1);
+  box-shadow: 20px 20px 90px 0 rgba(0, 106, 178, 0.14) inset;
+  padding: 32px 22px 30px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  min-width: 310px;
+  max-width: 360px;
+  text-decoration: none;
+  transition: box-shadow 0.13s;
+}
+
+.rdb-do-business-card:hover,
+.rdb-do-business-card:focus {
+  box-shadow: 0 2px 14px 0 rgba(0, 106, 178, 0.13),
+    20px 20px 90px 0 rgba(0, 106, 178, 0.14) inset;
+  border-color: #009448;
+}
+
+.rdb-do-business-card-icon {
+  font-size: 42px;
+  color: #006ab2;
+  margin-bottom: 10px;
+}
+
+.rdb-do-business-card-title {
+  font-size: var(--secondary-font-size);
+  font-family: var(--font-main);
+  color: #063232;
+  font-weight: 700;
+  margin-bottom: 24px;
+  white-space: nowrap;
+}
+
+.rdb-do-business-card-link {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: var(--text-font-size);
+  font-family: var(--font-main);
+  font-weight: 700;
+  color: #006ab2;
+}
+
+.rdb-do-business-card-link i {
+  font-size: var(--text-font-size);
+  margin-left: 5px;
+}
+
+/* ========================= NEWS SECTION ========================= */
+.section-heading {
+  color: #006ab2;
+  text-align: center;
+  font-family: var(--font-main);
+  font-size: var(--primary-font-size);
+  font-weight: 900;
+  line-height: 40px;
+}
+
+.news-section {
+  background-color: #eff3f6;
+}
+
+.section-80 {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.single-news-card {
+  padding: 20px;
+  background: var(--white);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.news-featured-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.news-title a {
+  color: #063232 !important;
+}
+
+.news-excerpt {
+  color: #212833 !important;
+  margin: 0;
+}
+
+.continue-btn,
+.news-title a {
+  font-family: var(--font-main);
+  font-size: var(--text-font-size);
+  font-weight: 700;
+  line-height: normal;
+}
+
+.continue-btn {
+  color: #009448;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.view-all-btn {
+  display: flex;
+  padding: 16px 35px;
+  align-self: center;
+  align-items: center;
+  background: #009448;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+
+  /* --- HERO SECTION --- */
+  .rdb-hero {
+    min-height: 80vh;
+  }
+  .rdb-hero .container {
+    padding: 60px 20px;
+    align-items: flex-start;
+  }
+  .hero-content {
+    width: 100%;
+    padding-top: 0;
+  }
+  .hero-content h1 {
+    margin-bottom: 15px;
+  }
+  .hero-content p {
+    margin-bottom: 22px;
+  }
+  .hero-content .btn-primary {
+    padding: 10px 22px;
+  }
+
+  .vr-hero-video {
+    width: 100vw;
+    height: 100%;
+  }
+
+  /* --- RDB STATS SECTION --- */
+  .rdb-highlights-section .container {
+    padding: 28px 8px;
+    width: auto;
+  }
+  #statsCarousel .owl-item {
+    position: relative;
+    display: flex;
+  }
+  #statsCarousel .stat-slide {
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
+    width: 80vw;
+    padding: 20px;
+  }
+  #statsCarousel .stat-slide .numbers {
+    font-size: 2rem;
+    line-height: 28px;
+  }
+
+  #statsCarousel .owl-dot {
+    width: 32px;
+  }
+
+  /* --- WHY INVEST SECTION --- */
+  .rdb-section.rdb-why-invest {
+    padding-block: 20px;
+    max-width: 100vw;
+    width: 100%;
+  }
+  .rdb-why-invest .rdb-section-title {
+    padding-bottom: 16px;
+  }
+  .rdb-why-invest .rdb-grid {
+    grid-template-columns: 1fr;
+    gap: 0 0;
+  }
+  .rdb-why-invest .rdb-col {
+    gap: 16px;
+    flex-direction: column;
+    padding-block: 18px;
+  }
+  .rdb-why-invest .rdb-col .rdb-icon {
+    font-size: 38px;
+  }
+  .rdb-why-invest .grid-content {
+    gap: 7px;
+  }
+
+  .rdb-why-invest .rdb-list li {
+    font-size: 0.96rem;
+  }
+
+  /* --- INVESTOR CERTAINTY --- */
+  .rdb-investor-certainty {
+    background-size: 160%;
+    background-position: center bottom;
+  }
+  .rdb-investor-certainty .rdb-flex-grid {
+    flex-direction: column;
+  }
+  .rdb-investor-certainty .rdb-flex-grid > div.grid-content {
+    flex: unset;
+    padding: 24px 8vw 24px 8vw;
+    gap: 18px;
+  }
+
+  /* --- INVESTMENT OPPORTUNITY --- */
+  .rdb-section.rdb-investment-opportunity {
+    padding: 40px 0 24px;
+  }
+  .rdb-investment-opportunity-header {
+    flex-direction: column;
+    gap: 22px;
+    margin-bottom: 26px;
+    align-items: flex-start;
+  }
+
+  .rdb-section-desc {
+    max-width: 100%;
+  }
+  .rdb-opportunity-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 18px;
+  }
+  .rdb-opportunity-card {
+    min-width: unset;
+    max-width: unset;
+  }
+  .rdb-opportunity-image {
+    height: 140px;
+  }
+  .rdb-opportunity-info {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 10px;
+    min-height: unset;
+    gap: 6px;
+  }
+
+  .rdb-opportunity-arrow {
+    margin-left: 0;
+    margin-top: 4px;
+  }
+  .rdb-section-center {
+    margin-top: 10px;
+  }
+  .btn.rdb-btn-green {
+    padding: 12px 26px;
+  }
+
+  /* --- DO BUSINESS SECTION --- */
+  .rdb-do-business {
+    padding: 34px 0 0;
+  }
+
+  .rdb-do-business-hero {
+    min-height: 240px;
+    padding: 30px 12px;
+    margin-bottom: 36px;
+    border-radius: 8px;
+  }
+
+  .rdb-do-business-play {
+    width: 38px;
+    height: 38px;
+  }
+  .rdb-do-business-modal-content {
+    max-width: 99vw;
+    width: 99vw;
+  }
+  .rdb-do-business-vid {
+    width: 99vw;
+    max-width: 99vw;
+  }
+  .rdb-do-business-section {
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 8px 34px;
+    margin-top: 36px;
+    border-radius: 8px;
+  }
+  .rdb-do-business-info {
+    width: 100%;
+    min-width: unset;
+    gap: 12px;
+  }
+
+  .rdb-do-business-cards {
+    /* flex-direction: column; */
+    gap: 14px;
+  }
+  .rdb-do-business-card {
+    min-width: unset;
+    max-width: unset;
+    padding: 16px 10px 14px 10px;
+    gap: 13px;
+    border-radius: 8px;
+  }
+  .rdb-do-business-card-icon {
+    font-size: 30px;
+    margin-bottom: 6px;
+  }
+  .rdb-do-business-card-title {
+    margin-bottom: 10px;
+    white-space: normal;
+  }
+  .rdb-do-business-card-link {
+    font-size: 0.98rem;
+    gap: 3px;
+  }
+  .rdb-do-business-card-link i {
+    margin-left: 2px;
+  }
+
+  /* --- NEWS SECTION --- */
+
+  .section-80 {
+    padding: 40px 20px;
+    gap: 14px;
+  }
+  .news-cards {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .single-news-card {
+    padding: 10px;
+    gap: 10px;
+    border-radius: 8px;
+  }
+  .news-featured-img {
+    border-radius: 8px;
+  }
+
+  .continue-btn {
+    gap: 4px;
+  }
+  .view-all-btn {
+    padding: 10px 18px;
+    border-radius: 8px;
+  }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infrastructure
+</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/fa-styles.css?v=<?=intval(time());?>">
+    <link rel="stylesheet" href="assets/css/global-styles.css?v=<?= intval(time()); ?>"> 
+    <link rel="stylesheet" href="./assets/css/icon-styles.css">
+</head>
+<body>
+     <!-- Header & Topbar -->
+<?php require_once './assets/header.php';?>
+   <!--sub header-->
+<div class="header-contain-fa">
+    <div class="container">
+        <div class="feader-links-fa">
+            <a href="#">Home</a><i class="bi bi-chevron-right"></i>
+            <a href="#">Explore Your Sector</a> <i class="bi bi-chevron-right"></i>
+            <a href="#">Infrastructure
+</a>
+        </div>
+        <div class="header-title-fa">
+            <h2>Infrastructure</h2>
+        </div>
+    </div>
+</div>
+<!--Herosection-->
+<div class="hero-section">
+    <div class="container">
+        <img src="./assets/img/hero-imag8-fa.webp" alt="">
+  
+    </div>
+</div>
+
+<!--hero-content-->
+<div class="hero-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <h3>Overview</h3>
+               <p>Rwanda understands the importance of infrastructure in the development of a competitive private sector. To this end, the government continues to invest heavily in infrastructure. Almost a tenth of Rwanda’s annual budget is committed to transport and other infrastructure. To develop a vibrant private sector, Rwanda is investing in Roads, Rail, and water transport infrastructure with the intent of dramatically reducing the cost of transport to businesses and individuals.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Investment Opportunities section-->
+
+<div class="invest-section">
+    <div class="container">
+        <h2>Investment Opportunities</h2>
+        <div class="invest-sec-cards mining-sec">
+            
+            <div class="Ed-card-1">
+            <div class="cards">
+                <!-- <h3>Exploration</h3> -->
+                <div>
+                   <ul class="fa-list">
+                    <li>Informal settlement Upgrade & Property Development</li>
+                    <li>Affordable Housing</li>
+                    <li>Industrial Park Development</li>
+                    <li>Road Construction, Rehabilitation, and maintenance</li>
+                   </ul>
+                </div>
+            </div>
+            <div class="cards">
+                <h3>Projects to be implemented during 2018/19-2023/24 includes the following</h3>
+                <p>Some of the Rwanda’s mineral ores produced in the country are exported as 100% raw mineral concentrates, not as metals. The establishment of processing plants to smelt cassiterite into tin, refining wolframite into tungsten, tantalite into tantalum, gemstones cutting and polishing.</p>
+            </div>
+            
+            </div>
+   
+        </div>
+    </div>
+</div>
+
+<!--Incentives section-->
+
+<div class="Incentives">
+    <div class="container">
+        <h2>Incentives </h2>
+        <div class="incentives-content-financial">
+            <div class="card-1 infrastructure">
+                <p>Following are incentives infrastructure projects are entitled to:</p>
+                <ul class="fa-list">
+                    <li>A registered investor shall be entitled to a flat accelerated depreciation rate of fifty percent (50%) for the first year for new or used assets if he/she meets the following criteria:</li>
+                    <li>invest in business assets worth at least fifty thousand US dollars (USD 50,000) each;</li>
+                    <li>construction projects worth at least one million eight hundred thousand United States dollars (USD 1,800,000);</li>
+                    <li>A registered investor shall not pay capital gains tax. However, income derived from the sale of commercial immovable property shall be included in the taxable income of the investor.</li>
+                    <li>Duty-Free importation of machinery and raw materials as per the East African Community Customs Management Act Regulation.</li>
+                    <li>The tax administration issues a Withholding Tax Certificate to avoid double taxation upon presentation of Investment Certificate provided by RDB.</li>
+                    <li>A registered investor who invests an equivalent of at least two hundred fifty-thousand United States Dollars (USD 250,000) may recruit three (03), foreign employees, without necessarily demonstrating that their skills are lacking or insufficient on the labor market in Rwanda.</li>
+                </ul>
+            </div>  
+
+        </div>
+</div>
+</div>
+<?php require_once './assets/footer.php';?>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script> 
+</body>
+</html>

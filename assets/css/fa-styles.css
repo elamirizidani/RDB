@@ -1,0 +1,1643 @@
+/* =======================
+   1. IMPORT FONTS
+   ======================= */
+
+/* Mansfield Black */
+@font-face {
+    font-family: "Mansfield";
+    src: url('../fonts/Mansfield-Extra-Bold-iF66c703e487e58.ttf'), 
+    url('../fonts/Mansfield-Extra-Bold-iF66c703e487e58.woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Mansfield Bold */
+@font-face {
+    font-family: "Mansfield";
+    src: url('../fonts/Mansfield-Bold-iF66c703e473e0c.ttf'),
+    url('../fonts/Mansfield-Bold-iF66c703e473e0c.woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Mansfield Semi-bold */
+@font-face {
+    font-family: "Mansfield";
+    src: url('../fonts/Mansfield-Semi-Bold-iF66c703e4e3977.ttf'),
+    url('../fonts/Mansfield-Semi-Bold-iF66c703e4e3977.woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Mansfield Medium */
+@font-face {
+    font-family: "Mansfield";
+    src: url('../fonts/Mansfield-Medium-iF66c703e4cf4a2.ttf'),
+    url('../fonts/Mansfield-Medium-iF66c703e4cf4a2.woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Mansfield Regular */
+@font-face {
+    font-family: "Mansfield";
+    src: url('../fonts/Mansfield-iF66c703e50e674.ttf'),
+    url('../fonts/Mansfield-iF66c703e50e674.woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Mansfield Thin */
+@font-face {
+    font-family: "Mansfield";
+    src: url('../fonts/Mansfield-Thin-iF66c703e503e5b.ttf'),url('../fonts/Mansfield-Thin-iF66c703e503e5b.woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* GLOBAL DECLARATION */
+
+:root{
+    /* colors */
+    --primary-color: #006AB2;
+    --secondary-color: #fff;
+    --accent-yellow: #FDEA00;
+    --accent-green:  #009448;
+    --footer-bg: #151C28;
+    --rdb-grey: #EFF3F6 ;
+    --text-color: #212833;
+    --text-color-grey: #768492; 
+    --text-color-black: #000;
+    --text-color-white: #fff;
+
+    /* fonts */
+    --font-family: 'Mansfield', sans-serif;
+    --font-weight-black: 900;
+    --font-weight-bold: 700;
+    --font-weight-Semi-bold: 600;
+    --font-weight-Medium: 500;
+    --font-weight-Regular: 400;
+    --font-weight-Thin: 300; 
+
+    /* Global text sizes */
+    --page-title: 48px;
+    --page-title-line-height: 50px;    
+    --section-title: 36px;
+    --section-title-line-height: 40px;
+    --card-title: 20px;
+    --card-title-line-height: normal;
+    --text: 16px;
+    --text-line-height: 22px;
+    --small-text: 14px;
+    --extra-small-text: 12px;
+    --small-text-line-height: 20px;
+
+    /* padding */
+    --section-padding-1: 100px;
+    --section-padding-2: 80px 100px;
+    --section-padding-3: 86px 100px;
+    --section-padding-4: 60px 120px;
+    --card: 40px;   
+    --card-content: 35px 20px; 
+    --hero-padding: 186px 100px;
+
+}
+
+
+/*Agriculture page*/
+.header-contain-fa{
+    background-color: var(--primary-color);
+    padding: 160px 0 0 0;
+
+}
+.header-contain-fa .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+}
+.header-contain-fa .feader-links-fa{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    display: none;
+}
+.header-contain-fa .feader-links-fa a{
+    color: var(--text-color-white);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    font-family: var(--font-family);
+}
+.header-contain-fa .feader-links-fa .bi{
+    font-size: 13px;
+    color: #FDEA00;
+}
+
+.header-title-fa h2{
+    color:  var(--text-color-white) ;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 50px;
+    font-family: var(--font-family);
+}
+
+/* Hero sectio*/
+.hero-section{
+    padding: 35px 0px;
+    background: linear-gradient(0deg, rgba(0, 106, 178, 0.00) 70%, #006AB2 70%);;
+}
+.hero-section .container img{
+    height: 447px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center 47%;
+}
+.hero-content {
+    padding: 0 0 35px 0;
+}
+
+.hero-content .container .row{
+    box-sizing: border-box;
+    /* gap: 20px; */
+}
+.hero-content h3{
+    font-size: var(--section-title);
+    font-weight: 900;
+    line-height: 40px;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+}
+.hero-content p, .hero-content ul li{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    font-family: var(--font-family);
+    color: #212833;
+}
+
+/*Investment Opportunities section*/
+
+.invest-section {
+    background-color: #EFF3F6;
+    padding: 100px 0;
+    display: flex;
+}
+.invest-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.invest-section h2{
+    font-size: var(--page-title);
+    font-weight: 900;
+    line-height: 50px;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+}
+
+.invest-sec-cards{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 20px;
+}
+.invest-sec-cards .card-1 {
+    background-color: #FFFFFF;
+    width: 25%;
+    border-radius: 20px;
+    padding: 42px 36px;
+    border-top: 5px solid var(--3, #009448);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.invest-sec-cards .card-1 h3, .invest-sec-cards .card-2 .cards h3{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: var(--font-family);
+    color: #009448;
+}
+.invest-sec-cards .card-1 p, .invest-sec-cards .card-2 .cards p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    font-family: var(--font-family);
+    color: #000000;
+}
+
+.invest-sec-cards .card-2 {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    gap: 20px;
+}
+.invest-sec-cards .card-2 .cards{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 42px 36px;
+    border-top: 5px solid var(--3, #009448);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* width: 33%; */
+}
+
+/*Incentives section*/
+.Incentives{
+    padding: 80px 0;
+    background-color: white;
+}
+.Incentives .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.Incentives h2{
+    font-size: var(--page-title);
+    font-weight: 900;
+    line-height: 50px;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+}
+
+.incentives-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.incentives-content .card-1, .incentives-content .card-2{
+padding: 40px 20px;
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 20px;
+border-radius: 10px;
+border: 1px solid rgba(0, 106, 178, 0.10);
+background: #FFF;
+box-shadow: 20px 20px 90px 1px rgba(0, 106, 178, 0.14) inset;
+}
+.incentives-content .card-1 h3, .incentives-content .card-2 h3{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: var(--font-family);
+    color: #009448;
+}
+.incentives-content .card-1 ul li, .incentives-content .card-2 ul li
+ , .incentives-content-financial ul li{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    font-family: var(--font-family);
+    color: #000000; 
+}
+
+/*Education  page*/
+.invest-sec-cards .Ed-card-1 .cards, .invest-sec-cards .Ed-card-2 {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 42px 36px;
+    border-top: 5px solid var(--3, #009448);
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+} 
+.invest-sec-cards .Ed-card-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+}
+.invest-sec-cards h3, .ict-incentives-content .card h3{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: var(--font-family);
+    color: #009448;
+}
+.invest-sec-cards ul li , .invest-sec-cards p, .ict-incentives-content .card p ,.incentives-content-financial .card-1 p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    font-family: var(--font-family);
+    color: #000000; 
+}
+.invest-sec-cards ul li::marker{
+    color: #000000;
+    font-size: 10px;
+    list-style-type: circle;
+}
+.ed-sec{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/*Financial services page*/
+.financial-cards, .ict-incentives-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.financial-cards .cards, .ict-incentives-content .card{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 42px 36px;
+    border-top: 5px solid var(--3, #009448);
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+
+.incentives-content-financial .card-1, .ict-incentives-content .card{
+padding: 40px 20px;
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 20px;
+border-radius: 10px;
+border: 1px solid rgba(0, 106, 178, 0.10);
+background: #FFF;
+box-shadow: 20px 20px 90px 1px rgba(0, 106, 178, 0.14) inset;
+}
+.incentives-content-financial .card-1 ul li::marker{
+    color: #000000;
+    font-size: 10px;
+    list-style-type: circle;
+}
+
+
+/*ICT page*/
+
+
+/*Mining page*/
+.mining-sec .Ed-card-1{
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.Overview-conents{
+    
+    display: flex!important;
+    flex-direction: column!important;
+    gap: 17px!important; 
+}
+/*infrastructure page*/
+.infrastructure{
+ display: flex!important;
+ flex-direction: column!important;
+ gap: 0px!important;
+}
+/*Energy page*/
+.fa-list{
+   padding:revert!important;
+ 
+}
+.fa-list li{
+    list-style: disc!important; 
+}
+.overview-contents{
+display: flex;
+flex-direction: column;
+gap: 17px;
+}
+
+/*Meet in Rwanda page */
+
+/*Hero section*/
+
+.hero-sec-mt-rd{
+display: flex;
+padding: 180.312px 99.5px 107.312px 100.5px;
+justify-content: center;
+align-items: center;
+background: linear-gradient(265deg, rgba(33, 37, 41, 0.00) 30.01%, rgba(33, 37, 41, 0.61) 74.16%), url('../img/fa1.webp') lightgray 50% / cover no-repeat;
+}
+.sub-menu-mt-rd{
+display: flex;
+flex-direction: row;
+justify-content: start;
+/* align-items: center; */
+gap: 8.495px;
+color: white;
+}
+.sub-menu-mt-rd p{
+font-size: 13px;
+font-weight: 500;
+font-family: var(--font-family);
+color: #FFFFFF; 
+}
+.sub-menu-mt-rd svg{
+width: 16.596px;
+height: 16.564px;
+flex-shrink: 0;
+}
+.hero-sub-content{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 30px;
+align-self: stretch;
+}
+.hero-sub-content h1{
+font-size: 50px;
+font-weight: 900;
+font-family: var(--font-family);
+color: #FFFFFF; 
+}
+.hero-sub-content span{
+font-size: 50px;
+font-weight: 900;
+font-family: var(--font-family);
+color: #FDEA00; 
+}
+.hero-sub-content p{
+font-size: 16px;
+font-weight: 300;
+font-family: var(--font-family);
+color: #FFFFFF; 
+}
+
+.hero-sub-content button{
+display: flex!important;
+padding: 16px 25px!important;
+align-items: center!important;
+border-radius: 0px!important;
+font-size: 16px!important;
+font-weight: 700!important;
+font-family: var(--font-family)!important;
+color: #FFFFFF; 
+background-color: #006AB2!important;
+}
+
+/*Designed for Gathering Section */
+.gathering-section{
+    padding: 60px 0 100px 0;
+    background-color: #FFFFFF;
+}
+.gathering-section .container{
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+.gathering-section .first-sec .sec1 p{
+font-size: 16px;
+font-weight: 700;
+font-family: var(--font-family);
+color: #009448; 
+}
+.gathering-section .first-sec .sec1 h2{
+font-size: 48px;
+font-weight: 900;
+font-family: var(--font-family);
+color: #006AB2; 
+}
+.gathering-section .first-sec .sec2 p{
+font-size: 16px;
+font-weight: 300;
+font-family: var(--font-family);
+color: #212833; 
+}
+.gathering-section .first-sec{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.gathering-section .first-sec .sec1{
+width: 62%;
+}
+.gathering-section .first-sec .sec2{
+width: 35%;
+}
+
+.second-sec{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.second-sec .card{
+display: flex!important;
+padding: 40px;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+flex: 1 0 0;
+border-radius: 10px;
+border: 1px solid rgba(0, 106, 178, 0.10);
+background: #FFF;
+box-shadow: 20px 20px 90px 1px rgba(0, 106, 178, 0.14) inset;
+}
+.second-sec .card .svg-container{
+display: flex;
+padding: 27px 27px;
+justify-content: center;
+align-items: center;
+aspect-ratio: 1/1;
+border-radius: 100px;
+background: var(--1, #006AB2);
+}
+.second-sec .card .svg-container svg{
+ width: 62px;
+height: 62px;
+flex-shrink: 0;
+aspect-ratio: 1/1;
+}
+.second-sec .card p{
+font-size: 20px;
+line-height: 22px;
+font-weight: 700;
+font-family: var(--font-family);
+color: #212529; 
+}
+
+/*Let Rwanda Bring Your Vision to Life section*/
+.rwanda-vision-section{
+display: flex;
+height: 550px;
+padding: 80px 0;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: linear-gradient(132deg, rgba(33, 37, 41, 0.00) 16.89%, rgba(33, 37, 41, 0.79) 54.6%), url('../img/fa2.webp') lightgray 50% / cover no-repeat;
+}
+.rwanda-vision-section .container{
+display: flex;
+align-items: center;
+justify-content: end;
+}
+
+.rd-vision-content{
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+.rd-vision-content h4{
+font-size: 16px;
+font-weight: 700;
+font-family: var(--font-family);
+color: #FDEA00; 
+}
+.rd-vision-content h3{
+font-size: 48px;
+font-weight: 900;
+font-family: var(--font-family);
+color: #FFF; 
+line-height: 50px;
+}
+
+.rd-vision-content p{
+font-size: 16px;
+font-weight: 300;
+font-family: var(--font-family);
+color: #D1E1E3; 
+line-height: 22px;
+}
+.rd-vision-content button{
+display: flex !important;
+padding: 16px 25px !important;
+align-items: center !important;
+justify-content: center;
+border-radius: 10px !important;
+background: var(--1, #006AB2) !important;
+font-size: 14px;
+font-weight: 700;
+font-family: var(--font-family);
+color: #FFF;
+width: fit-content!important; 
+}
+/*Venues & Facilities section*/
+.Venues{
+    background-color: white;
+    padding: 100px 0px;
+}
+.Venues .container{
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+gap: 60px;
+align-self: stretch;
+}
+.Venues .container h2{
+color:#006AB2;
+font-family: var(--font-family);
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 50px; 
+align-self: center;
+}
+.vanues-cards{
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.vanues-cards .card1, .vanues-cards .card2,
+.vanues-cards .card3, .vanues-cards .card4,
+.meeting-cards .card1, .meeting-cards .card2,
+.meeting-cards .card3, .meeting-cards .card4,
+.meeting-cards .card5, .meeting-cards .card6
+{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+flex: 1 0 0;
+border-radius: 10px;
+background: var(--2, #FFF);
+overflow: hidden;
+}
+.vanues-cards .card1 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/fa19.webp') lightgray 50% / cover no-repeat;
+}
+.vanues-cards .card-adrs {
+display: flex;
+flex-direction: column;
+padding: 25px 14px 0px 14px;
+justify-content: space-between;
+align-items: start;
+align-self: stretch;
+gap: 15px;
+}
+.vanues-cards .card-adrs span, .meeting-cards span{
+width: 60px;
+height: 4px;
+background: var(--1, #006AB2);
+}
+.vanues-cards .card-adrs p, .meeting-cards p{
+color: #212833;
+font-family: var(--font-family);
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.vanues-cards .card2 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/fa6.webp') lightgray 50% / cover no-repeat;
+}
+.vanues-cards .card3 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/fa14.webp') lightgray 50% / cover no-repeat;
+}
+.vanues-cards .card4 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/fa12.webp') lightgray 50% / cover no-repeat;
+}
+
+/*From Rwanda, To the World Stage section*/
+
+
+.global-showcase{
+ background-color: #006AB2;
+ padding: 100px 0px;
+}
+.global-showcase .container{
+display: flex;
+flex-direction: column;
+gap: 60px;
+align-self: stretch;
+/* align-items: center; */
+}
+.global-showcase .container h2{
+color: #FFF;
+font-family: var(--font-family);
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 50px; 
+align-self: center;
+}
+.global-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.meeting-cards{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+.global-cards .g-card1 .g-card-detail, .global-cards .g-card2 .g-card-detail,
+.global-cards .g-card3 .g-card-detail, .global-cards .g-card4 .g-card-detail,
+.global-cards .g-card5 .g-card-detail, .global-cards .g-card6 .g-card-detail
+{
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+justify-content: space-between;
+align-items: start;
+align-self: stretch;
+gap: 15px;
+}
+.global-cards  .devider{
+ width: 60px!important;
+height: 4px!important;
+background: var(--5, #FDEA00);
+}
+.g-card-detail p{
+color: #FFF;
+font-family: var(--font-family);
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.global-cards .g-card1 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/fa9.webp') lightgray 50% / cover no-repeat;
+}
+.global-cards .g-card2 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/fa11.webp') lightgray 50% / cover no-repeat;
+}
+.global-cards .g-card3 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/fa8.webp') lightgray 50% / cover no-repeat;
+}
+.global-cards .g-card4 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/fa15.webp') lightgray 50% / cover no-repeat;
+}
+.global-cards .g-card5 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/fa10.webp') lightgray 50% / cover no-repeat;
+}
+.global-cards .g-card6 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/fa17.webp') lightgray 50% / cover no-repeat;
+}
+.global-cards .g-card1, .global-cards .g-card2,
+.global-cards .g-card3, .global-cards .g-card4,
+.global-cards .g-card5, .global-cards .g-card6
+{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+flex: 1 0 0;
+border-radius: 10px;
+overflow: hidden;
+}
+
+
+/*Turn Every Meeting Into a Journey.section*/
+
+.meeting-journey{
+    background: var(--8, #EFF3F6);
+}
+.meeting-journey .container{
+display: flex;
+padding: 100px 0px;
+flex-direction: column;
+gap: 60px;
+align-self: stretch;
+}
+.meeting-titels{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.meeting-titels p{
+color: var(--3, #009448);
+/* 16B */
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.meeting-titels h3{
+ color: var(--1, #006AB2);
+text-align: center;
+font-family: var(--font-family);
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 50px; /* 104.167% */   
+
+}
+
+.meeting-cards .card1 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/faa3.webp') lightgray 50% / cover no-repeat;
+}
+
+.meeting-cards .card2 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/faaa13.webp') lightgray 50% / cover no-repeat;
+}
+.meeting-cards .card3 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/faa7.webp') lightgray 50% / cover no-repeat;
+}
+.meeting-cards .card4 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/faaa5.webp') lightgray 50% / cover no-repeat;
+}
+.meeting-cards .card5 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/faaa18.webp') lightgray 50% / cover no-repeat;
+}
+.meeting-cards .card6 .card-img{
+height: 200px;
+align-self: stretch;
+background: url('../img/faaa20.webp') lightgray 50% / cover no-repeat; 
+}
+.meeting-cards .card-adrs{
+display: flex;
+flex-direction: column;
+padding: 25px 14px 25px 14px;
+justify-content: space-between;
+align-items: start;
+align-self: stretch;
+gap: 15px;
+}
+/*With You, Every Step of the Way. section*/
+
+
+.support-journey {
+background-color: white;
+}
+.support-journey .container{
+padding: 100px 0;
+}
+.support-sec{
+    display: flex;
+}
+.support-journey-titles p{
+color: var(--3, #009448)!important;
+font-family: var(--font-family)!important;
+font-size: 16px!important;
+font-style: normal!important;
+font-weight: 300!important;
+line-height: 22px!important; /* 137.5% */   
+}
+
+.support-journey-titles h3{
+color: var(--1, #006AB2);
+font-family: var(--font-family);
+font-size: 45px;
+font-style: normal;
+font-weight: 900;
+line-height: 47px; /* 104.167% */ 
+}
+
+.support-journey .container p, .support-journey .container ul li{
+ color: var(--6, #212833);
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; 
+
+}
+.support-journey .container ul li{
+    padding-bottom: 5px!important;
+}
+.support-journey .container ul{
+list-style: none;
+padding: 10px 0 10px 10px;
+
+}
+.support-journey .container button{
+display: flex;
+padding: 10px 25px;
+align-items: center; 
+border: 1px solid var(--1, #006AB2);  
+background-color: transparent;
+color: var(--1, #006AB2);
+text-align: center;
+justify-content: center;
+
+/* 16 */
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+}
+.support-journey-img{
+flex: 1 0 0;
+align-self: stretch;
+background: url('../img/faaa16.webp') lightgray 50% / cover no-repeat;
+ 
+
+}
+.support-journey-img img{
+    display: none;
+}
+.support-details{
+display: flex;
+flex-direction: column;
+padding: 45px 30px 45px 0px;
+justify-content: space-between;
+align-items: start;
+flex: 1 0 0;
+align-self: stretch;   
+gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*Responsiveness*/
+
+@media screen and (max-width: 768px) {
+    /* Prevent horizontal scroll */
+    html, body {
+        overflow-x: hidden;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    /* Avoid elements exceeding screen width */
+    * {
+        max-width: 100% !important;
+    }
+
+    /* Agriculture page - Header */
+    .header-contain-fa {
+        padding: 200px 0 0 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .header-contain-fa .container {
+        gap: 20px;
+        padding: 0 15px;
+        width: 100%;
+        margin: 0!important;
+    }
+
+    .header-contain-fa .feader-links-fa {
+        flex-direction: row;
+        gap: 8px;
+        flex-wrap: wrap;
+        display: none;
+    }
+
+    .header-title-fa h2 {
+        font-size: 32px;
+        line-height: 36px;
+        text-align: center; 
+         margin: 0!important;
+    }
+
+    /* Hero section */
+    .hero-section {
+        padding: 20px 0;
+        margin: 0!important;
+    }
+
+    .hero-section .container {
+        padding: 0 15px;
+        width: 100%;
+       
+    }
+
+    .hero-section .container img {
+        height: auto;
+        max-width: 100%;
+        border-radius: 15px;
+        display: block;
+    }
+
+    .hero-content {
+        padding: 0 0 20px 0;
+    }
+
+    .hero-content h3 {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .hero-content p, .hero-content ul li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* Investment Opportunities section */
+    .invest-section {
+        padding: 50px 0;
+    }
+
+    .invest-section .container {
+        gap: 30px;
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    .invest-section h2 {
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .invest-sec-cards {
+        flex-direction: column;
+        gap: 15px;
+        display: flex;
+    }
+
+    .invest-sec-cards .card-1,
+    .invest-sec-cards .card-2 .cards {
+        width: 100%;
+        padding: 30px 20px;
+        border-radius: 15px;
+        gap: 15px;
+    }
+
+    .invest-sec-cards .card-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .invest-sec-cards .card-1 h3, 
+    .invest-sec-cards .card-2 .cards h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .invest-sec-cards .card-1 p, 
+    .invest-sec-cards .card-2 .cards p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* Incentives section */
+    .Incentives {
+        padding: 50px 0;
+    }
+
+    .Incentives .container {
+        gap: 20px;
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    .Incentives h2 {
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .incentives-content {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .incentives-content .card-1, 
+    .incentives-content .card-2 {
+        padding: 25px 15px;
+        gap: 15px;
+        border-radius: 8px;
+    }
+
+    .incentives-content .card-1 h3, 
+    .incentives-content .card-2 h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .incentives-content .card-1 ul li, 
+    .incentives-content .card-2 ul li,
+    .incentives-content-financial ul li {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    /* Education page */
+    .invest-sec-cards .Ed-card-1 {
+        gap: 15px;
+    }
+
+    .invest-sec-cards .Ed-card-1 .cards, 
+    .invest-sec-cards .Ed-card-2 {
+        padding: 25px 20px;
+        border-radius: 15px;
+        gap: 15px;
+    }
+
+    .invest-sec-cards h3, 
+    .ict-incentives-content .card h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .invest-sec-cards ul li, 
+    .invest-sec-cards p, 
+    .ict-incentives-content .card p,
+    .incentives-content-financial .card-1 p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .ed-sec {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Financial services page */
+    .financial-cards, 
+    .ict-incentives-content {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .financial-cards .cards, 
+    .ict-incentives-content .card {
+        padding: 25px 20px;
+        border-radius: 15px;
+        gap: 15px;
+    }
+
+    .incentives-content-financial .card-1, 
+    .ict-incentives-content .card {
+        padding: 25px 15px;
+        gap: 15px;
+        border-radius: 8px;
+    }
+
+    /* Mining page */
+    .mining-sec .Ed-card-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Infrastructure page */
+    .infrastructure {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+
+    /* General mobile optimizations */
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    /* Ensure all grid layouts become single column on mobile */
+    .grid-layout {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    /* Adjust font sizes for better mobile readability */
+    h1, h2, h3 {
+        word-wrap: break-word;
+        hyphens: auto;
+    }
+
+    /* Ensure images are responsive */
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Adjust padding and margins for mobile */
+    .card, .cards {
+        margin-bottom: 15px;
+    }
+
+    /* Ensure buttons and interactive elements are touch-friendly */
+    button, a {
+        min-height: 44px;
+        min-width: 44px;
+    }
+}
+
+
+/*Meet in Rwanda page  responsivness*/
+
+@media screen and (max-width: 768px) {
+  /* Global Reset and Box Model */
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+    max-width: 100%;
+  }
+  
+  /* Container Global Styles */
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Hero Section */
+  .hero-sec-mt-rd {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 15px 40px 15px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .hero-sub-content {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .hero-sub-content h1,
+  .hero-sub-content span {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .hero-sub-content p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .hero-sub-content button {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 44px;
+  }
+  
+  /* Gathering Section */
+  .gathering-section {
+    padding: 30px 15px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .gathering-section .first-sec h2{
+    font-size: 25px!important;
+  }
+  .gathering-section .first-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .gathering-section .first-sec .sec1,
+  .gathering-section .first-sec .sec2 {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    min-width: 0;
+  }
+  
+  .second-sec {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+  .second-sec .card {
+    padding: 20px;
+  }
+  /* Rwanda Vision Section */
+  .rwanda-vision-section {
+    height: auto;
+    padding: 40px 15px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .rwanda-vision-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .rd-vision-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .rd-vision-content h3 {
+    font-size: 28px;
+    line-height: 34px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .rd-vision-content p {
+    font-size: 14px;
+    line-height: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .rd-vision-content button {
+    width: auto!important;
+    max-width: auto!important;
+    box-sizing: border-box;
+    min-height: 44px;
+  }
+  
+  /* Venues & Facilities Section */
+  .Venues {
+    padding: 40px 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .Venues .container {
+    padding: 0 15px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .Venues .container h2 {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .vanues-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .vanues-cards .card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    min-width: 0;
+  }
+  
+  /* Global Showcase */
+  .global-showcase {
+    padding: 40px 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .global-showcase .container {
+    padding: 0 15px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .global-showcase .container h2 {
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .global-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .global-cards .card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    min-width: 0;
+  }
+  
+  /* Meeting Journey */
+  .meeting-journey {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .meeting-journey .container {
+    padding: 40px 15px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .meeting-titels h3 {
+    font-size: 28px;
+    line-height: 34px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .meeting-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .meeting-cards .card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    min-width: 0;
+  }
+  
+  /* Support Journey */
+  .support-journey {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .support-journey .container {
+    padding: 40px 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .support-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 50px;
+  }
+  
+  .support-journey-img {
+    height: 200px;
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+  }
+  
+  .support-details {
+    padding: 20px 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Global Image Responsiveness */
+  img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+  
+  /* Text Responsiveness */
+  h1, h2, h3, h4, h5, h6, p, span, div {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+  
+  /* Button Responsiveness */
+  button, .button, input[type="submit"], input[type="button"] {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    min-height: 44px;
+    padding: 12px 20px;
+  }
+  
+  /* Form Elements */
+  input, textarea, select {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Flex and Grid Fallbacks */
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 100%;
+  }
+  .support-journey-titles h3{
+    font-size: 27px;
+    line-height: 31px;
+}
+  /* Prevent horizontal overflow on any element */
+  div, section, article, aside, header, footer, nav, main {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .support-journey-img {
+  height: 200px !important;
+  width: 100% !important;
+  flex: 1 0 0 !important;
+  align-self: stretch !important;
+  background: url('../img/faaa16.webp') lightgray 50% / cover no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+.support-journey-img img{
+    display: block;
+}
+
+}
